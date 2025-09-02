@@ -18,7 +18,7 @@ export const CVHeader = () => {
         <div className="flex-1 space-y-4">
           <div className="space-y-2">
             <h1 className="text-4xl font-bold bg-tech-gradient bg-clip-text text-transparent">
-              [Votre Nom]
+              Lydéric Yabada
             </h1>
             <h2 className="text-xl text-muted-foreground font-medium">
               Développeur Web Full Stack
@@ -49,23 +49,23 @@ export const CVHeader = () => {
         <div className="space-y-3 text-sm">
           <div className="flex items-center gap-2 text-muted-foreground">
             <Mail className="w-4 h-4" />
-            <span>votre.email@example.com</span>
+            <span>Lyde72@hotmail.com</span>
           </div>
           <div className="flex items-center gap-2 text-muted-foreground">
             <Phone className="w-4 h-4" />
-            <span>+33 6 12 34 56 78</span>
+            <span>0492 438 463</span>
           </div>
           <div className="flex items-center gap-2 text-muted-foreground">
             <MapPin className="w-4 h-4" />
-            <span>Paris, France</span>
+            <span>Bruxelles, Belgique</span>
           </div>
           <div className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
             <Github className="w-4 h-4" />
-            <span>github.com/votrenom</span>
+            <span>Github.com/Lyde96</span>
           </div>
           <div className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
             <Linkedin className="w-4 h-4" />
-            <span>linkedin.com/in/votrenom</span>
+            <span>linkedin/in/Lydéric Yabada</span>
           </div>
           <div className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
             <Globe className="w-4 h-4" />
