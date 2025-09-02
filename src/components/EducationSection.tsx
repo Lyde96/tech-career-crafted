@@ -20,23 +20,6 @@ const education: Education[] = [
     period: "Septembre 2020 - Juin 2021",
     specialization: "Développement Full Stack",
     description: "Formation intensive de 6 mois couvrant le développement front-end et back-end. Création de sites web avec HTML5, CSS3, JavaScript, React.js, Laravel 8, et Bootstrap. Apprentissage des bases UX/UI, création de bases de données et débogage."
-  },
-  {
-    degree: "Master en Informatique",
-    school: "École Supérieure d'Informatique",
-    location: "Paris, France",
-    period: "2017 - 2019",
-    specialization: "Développement Web & Mobile",
-    grade: "Mention Très Bien",
-    description: "Spécialisation en architecture logicielle, développement d'applications web modernes et gestion de projets agiles."
-  },
-  {
-    degree: "Licence Informatique",
-    school: "Université de Technologie",
-    location: "Lyon, France",
-    period: "2014 - 2017",
-    grade: "Mention Bien",
-    description: "Formation solide en programmation, bases de données, réseaux et mathématiques appliquées à l'informatique."
   }
 ];
 
