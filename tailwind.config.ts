@@ -63,6 +63,11 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				}
 			},
+			backgroundImage: {
+				'tech-gradient': 'var(--tech-gradient)',
+				'card-gradient': 'var(--card-gradient)',
+				'skill-gradient': 'var(--skill-gradient)'
+			},
 			borderRadius: {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
