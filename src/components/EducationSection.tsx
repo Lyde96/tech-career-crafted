@@ -19,7 +19,7 @@ const education: Education[] = [
     location: "Bruxelles, Belgique",
     period: "Septembre 2020 - Mai 2021",
     specialization: "Développement Full Stack",
-    description: "Formation intensive de 6 mois couvrant le développement front-end et back-end. Création de sites web avec HTML5, CSS3, JavaScript, React.js, Laravel 8, et Bootstrap. Apprentissage des bases UX/UI, création de bases de données et débogage."
+    description: "Formation intensive de 7 mois couvrant le développement front-end et back-end. Création de sites web avec HTML5, CSS3, JavaScript, React.js, Laravel 8, et Bootstrap. Apprentissage des bases UX/UI, création de bases de données et débogage."
   }
 ];
 
