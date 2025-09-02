@@ -1,7 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
-import { Code, Database, Cloud, Palette, Wrench, Users } from "lucide-react";
+import { Code, Database, Cloud, Palette, Wrench, Users, BarChart3 } from "lucide-react";
 
 interface SkillCategory {
   title: string;
@@ -30,6 +30,18 @@ const skillCategories: SkillCategory[] = [
       { name: "PostgreSQL", level: 80 },
       { name: "MongoDB", level: 75 },
       { name: "API REST/GraphQL", level: 85 }
+    ]
+  },
+  {
+    title: "Data Engineering",
+    icon: <BarChart3 className="w-5 h-5" />,
+    skills: [
+      { name: "Apache Spark", level: 85 },
+      { name: "Apache Kafka", level: 80 },
+      { name: "Airflow", level: 85 },
+      { name: "Elasticsearch", level: 75 },
+      { name: "ETL/ELT Pipelines", level: 90 },
+      { name: "Data Modeling", level: 85 }
     ]
   },
   {
