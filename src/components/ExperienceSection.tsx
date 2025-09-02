@@ -40,6 +40,19 @@ const experiences: Experience[] = [
     technologies: ["Communication", "Service Client", "Administration", "Suivi de Dossiers", "Gestion Administrative"]
   },
   {
+    title: "Stage Odoo",
+    company: "Odoo",
+    location: "Belgique",
+    period: "Jan 2022 - Fév 2022",
+    description: [
+      "Stage de découverte du logiciel de gestion d'affaires open source Odoo",
+      "Formation sur un progiciel de gestion intégré (ERP) étendu aux applications front office",
+      "Apprentissage d'un système utilisé par plus de 15 millions d'utilisateurs mondialement",
+      "Familiarisation avec les versions community (LGPLv3) et entreprise du logiciel"
+    ],
+    technologies: ["Odoo", "ERP", "Gestion d'entreprise", "Open Source", "Applications métier"]
+  },
+  {
     title: "IT Desk Support",
     company: "National Bank",
     location: "Bruxelles, Belgique",
