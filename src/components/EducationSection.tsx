@@ -17,7 +17,7 @@ const education: Education[] = [
     degree: "Formation Web Developer Full Stack",
     school: "Molengeek",
     location: "Bruxelles, Belgique",
-    period: "Mars 2021 - Novembre 2021",
+    period: "Septembre 2020 - Juin 2021",
     specialization: "Développement Full Stack",
     description: "Formation intensive de 6 mois couvrant le développement front-end et back-end. Création de sites web avec HTML5, CSS3, JavaScript, React.js, Laravel 8, et Bootstrap. Apprentissage des bases UX/UI, création de bases de données et débogage."
   },
