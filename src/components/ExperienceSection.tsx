@@ -26,6 +26,20 @@ const experiences: Experience[] = [
     technologies: ["Growth Hacking", "Marketing Digital", "CRM", "Analytics", "Automation", "Sales Funnel"]
   },
   {
+    title: "Assistant Administratif",
+    company: "CPAS",
+    location: "Ottignies, Belgique",
+    period: "Jun 2021 - Sep 2022",
+    description: [
+      "Liaison entre les bénéficiaires et les travailleurs sociaux",
+      "Support à la ligne téléphonique d'aide",
+      "Distribution de certificats aux travailleurs sociaux et bénéficiaires",
+      "Suivi des dossiers des bénéficiaires et des paiements",
+      "Assistance aux tâches de communication (contenu web, création de flyers)"
+    ],
+    technologies: ["Communication", "Service Client", "Administration", "Suivi de Dossiers", "Gestion Administrative"]
+  },
+  {
     title: "IT Desk Support",
     company: "National Bank",
     location: "Bruxelles, Belgique",
