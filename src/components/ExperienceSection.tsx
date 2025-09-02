@@ -13,10 +13,23 @@ interface Experience {
 
 const experiences: Experience[] = [
   {
+    title: "Business Developer",
+    company: "Neoline Corporation",
+    location: "Remote",
+    period: "2023 - 2024",
+    description: [
+      "Développement et accélération de la croissance d'entreprises en ligne",
+      "Accompagnement personnalisé pour générer des revenus prévisibles et constants",
+      "Formation et éducation aux stratégies de croissance digitale",
+      "Mise en place de processus de génération de revenus scalables"
+    ],
+    technologies: ["Growth Hacking", "Marketing Digital", "CRM", "Analytics", "Automation", "Sales Funnel"]
+  },
+  {
     title: "Développeur Full Stack Senior",
     company: "TechCorp",
     location: "Paris, France",
-    period: "2022 - Présent",
+    period: "2022 - 2023",
     description: [
       "Développement d'une plateforme SaaS avec React et Node.js servant 10k+ utilisateurs",
       "Mise en place d'une architecture microservices avec Docker et Kubernetes",
