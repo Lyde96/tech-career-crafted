@@ -26,6 +26,20 @@ const experiences: Experience[] = [
     technologies: ["Growth Hacking", "Marketing Digital", "CRM", "Analytics", "Automation", "Sales Funnel"]
   },
   {
+    title: "IT Desk Support",
+    company: "National Bank",
+    location: "Bruxelles, Belgique",
+    period: "Sep 2022 - Jun 2023",
+    description: [
+      "Support informatique incluant installation, dépannage et maintenance d'ordinateurs et imprimantes réseau",
+      "Installation et gestion des licences VOIP pour assurer des services de communication fluides",
+      "Service client avec focus sur la résolution rapide et efficace sous pression",
+      "Support des appareils iOS et assistance applicative (Resengo, Odoo, logiciels de réservation)",
+      "Réparations matérielles et maintenance préventive pour maximiser la fiabilité des systèmes"
+    ],
+    technologies: ["Windows", "iOS", "VOIP", "Ricoh", "Canon", "Lexmark", "Resengo", "Odoo"]
+  },
+  {
     title: "Assistant Administratif",
     company: "CPAS",
     location: "Ottignies, Belgique",
@@ -51,20 +65,6 @@ const experiences: Experience[] = [
       "Familiarisation avec les versions community (LGPLv3) et entreprise du logiciel"
     ],
     technologies: ["Odoo", "ERP", "Gestion d'entreprise", "Open Source", "Applications métier"]
-  },
-  {
-    title: "IT Desk Support",
-    company: "National Bank",
-    location: "Bruxelles, Belgique",
-    period: "Sep 2022 - Jun 2023",
-    description: [
-      "Support informatique incluant installation, dépannage et maintenance d'ordinateurs et imprimantes réseau",
-      "Installation et gestion des licences VOIP pour assurer des services de communication fluides",
-      "Service client avec focus sur la résolution rapide et efficace sous pression",
-      "Support des appareils iOS et assistance applicative (Resengo, Odoo, logiciels de réservation)",
-      "Réparations matérielles et maintenance préventive pour maximiser la fiabilité des systèmes"
-    ],
-    technologies: ["Windows", "iOS", "VOIP", "Ricoh", "Canon", "Lexmark", "Resengo", "Odoo"]
   }
 ];
 
