@@ -69,7 +69,7 @@ export const CVHeader = () => {
           </div>
           <div className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
             <Globe className="w-4 h-4" />
-            <span>votre-portfolio.com</span>
+            <span>portfolio-lyd</span>
           </div>
         </div>
       </div>
