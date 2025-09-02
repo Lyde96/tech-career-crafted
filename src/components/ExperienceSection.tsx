@@ -57,7 +57,7 @@ const experiences: Experience[] = [
     title: "Assistant Administratif",
     company: "CPAS",
     location: "Ottignies, Belgique",
-    period: "Septembre 2021 - Septembre 2021",
+    period: "Septembre 2021 - Septembre 2022",
     description: [
       "Liaison entre les bénéficiaires et les travailleurs sociaux",
       "Support à la ligne téléphonique d'aide",
