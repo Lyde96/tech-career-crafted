@@ -65,45 +65,6 @@ const experiences: Experience[] = [
       "Réparations matérielles et maintenance préventive pour maximiser la fiabilité des systèmes"
     ],
     technologies: ["Windows", "iOS", "VOIP", "Ricoh", "Canon", "Lexmark", "Resengo", "Odoo"]
-  },
-  {
-    title: "Développeur Full Stack Senior",
-    company: "TechCorp",
-    location: "Paris, France",
-    period: "2022 - 2023",
-    description: [
-      "Développement d'une plateforme SaaS avec React et Node.js servant 10k+ utilisateurs",
-      "Mise en place d'une architecture microservices avec Docker et Kubernetes",
-      "Optimisation des performances frontend (-40% temps de chargement)",
-      "Mentorat de 3 développeurs junior et code reviews"
-    ],
-    technologies: ["React", "TypeScript", "Node.js", "PostgreSQL", "AWS", "Docker"]
-  },
-  {
-    title: "Développeur Full Stack",
-    company: "StartupTech",
-    location: "Lyon, France",
-    period: "2020 - 2022",
-    description: [
-      "Développement complet d'une marketplace e-commerce de A à Z",
-      "Intégration d'APIs de paiement (Stripe, PayPal) et gestion des transactions",
-      "Mise en place de tests automatisés (Jest, Cypress) et CI/CD",
-      "Collaboration étroite avec l'équipe design pour l'UX/UI"
-    ],
-    technologies: ["Vue.js", "Python", "Django", "MySQL", "Redis", "Git"]
-  },
-  {
-    title: "Développeur Frontend",
-    company: "WebAgency",
-    location: "Remote",
-    period: "2019 - 2020",
-    description: [
-      "Développement de sites web responsives pour divers clients",
-      "Optimisation SEO et performances web (Core Web Vitals)",
-      "Intégration de CMS headless (Strapi, Contentful)",
-      "Formation aux bonnes pratiques de développement moderne"
-    ],
-    technologies: ["JavaScript", "Sass", "Webpack", "WordPress", "Figma"]
   }
 ];
 
