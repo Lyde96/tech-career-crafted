@@ -127,6 +127,10 @@ export const EducationSection = () => {
             <Badge className="bg-primary/10 text-primary border-primary/20">C1 - Courant</Badge>
           </div>
           <div className="flex items-center gap-2">
+            <span className="font-medium">Néerlandais</span>
+            <Badge className="bg-primary/10 text-primary border-primary/20">B2 - Intermédiaire</Badge>
+          </div>
+          <div className="flex items-center gap-2">
             <span className="font-medium">Espagnol</span>
             <Badge className="bg-primary/10 text-primary border-primary/20">B2 - Intermédiaire</Badge>
           </div>
