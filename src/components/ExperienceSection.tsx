@@ -27,20 +27,6 @@ const experiences: Experience[] = [
     technologies: ["Python", "SQL", "Power BI", "Apache Spark", "Azure", "Databricks", "Docker", "Git", "ETL"]
   },
   {
-    title: "Data Engineer",
-    company: "Tech Data Solutions",
-    location: "Bruxelles, Belgique",
-    period: "2024 - Présent",
-    description: [
-      "Conception et implémentation de pipelines de données ETL pour traiter des millions de transactions quotidiennes",
-      "Développement d'architectures de données scalables utilisant Apache Spark et Apache Kafka",
-      "Optimisation des performances des requêtes SQL et NoSQL pour réduire les temps de traitement de 40%",
-      "Mise en place de solutions de monitoring et d'alerting pour assurer la qualité des données",
-      "Collaboration avec les équipes data science pour fournir des données clean et structurées"
-    ],
-    technologies: ["Python", "Apache Spark", "Apache Kafka", "SQL", "MongoDB", "Docker", "Airflow", "AWS", "Elasticsearch"]
-  },
-  {
     title: "Business Developer",
     company: "Neoline Corporation",
     location: "Bruxelles, Belgique",
