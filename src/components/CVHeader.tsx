@@ -63,10 +63,15 @@ export const CVHeader = () => {
             <Github className="w-4 h-4" />
             <span>Github.com/Lyde96</span>
           </div>
-          <div className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
+          <a 
+            href="https://www.linkedin.com/in/lyd%C3%A9ric-yabada-06357a351/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
+          >
             <Linkedin className="w-4 h-4" />
-            <span>linkedin/in/Lydéric Yabada</span>
-          </div>
+            <span>LinkedIn Profile</span>
+          </a>
           <div className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
             <Globe className="w-4 h-4" />
             <span>portfolio-lyd</span>
