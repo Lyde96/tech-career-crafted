@@ -15,7 +15,7 @@ const experiences: Experience[] = [
   {
     title: "Data Engineer",
     company: "Décathlon",
-    location: "Bruxelles, Belgique",
+    location: "Anderlecht, Belgique",
     period: "octobre 2024 - Mai 2025",
     description: [
       "Conception et développement de pipelines de données pour l'optimisation des performances retail",
