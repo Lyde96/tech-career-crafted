@@ -29,8 +29,8 @@ const experiences: Experience[] = [
   {
     title: "Business Developer",
     company: "Neoline Corporation",
-    location: "Remote",
-    period: "2023 - 2024",
+    location: "Bruxelles, Belgique",
+    period: "Août 2023 - Septembre 2024",
     description: [
       "Développement et accélération de la croissance d'entreprises en ligne",
       "Accompagnement personnalisé pour générer des revenus prévisibles et constants",
