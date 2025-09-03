@@ -141,6 +141,15 @@ export const SkillsSection = () => {
           <Badge className="bg-primary/10 text-primary border-primary/20">
             Google Analytics Certified
           </Badge>
+          <Badge className="bg-primary/10 text-primary border-primary/20">
+            Data Analytics Google (2023)
+          </Badge>
+          <Badge className="bg-primary/10 text-primary border-primary/20">
+            Data Engineer Google (2023)
+          </Badge>
+          <Badge className="bg-primary/10 text-primary border-primary/20">
+            AWS Certification (2023)
+          </Badge>
         </div>
       </Card>
     </div>
