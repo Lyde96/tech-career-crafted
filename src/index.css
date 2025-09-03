@@ -36,9 +36,9 @@ All colors MUST be HSL.
     --input: 240 3.7% 15.9%;
     --ring: 217 91% 60%;
 
-    --tech-gradient: linear-gradient(135deg, 217 91% 60%, 280 100% 70%);
-    --card-gradient: linear-gradient(145deg, 240 5.9% 10%, 240 3.7% 15.9%);
-    --skill-gradient: linear-gradient(90deg, 217 91% 60%, 195 100% 50%);
+    --tech-gradient: linear-gradient(135deg, hsl(217 91% 60%), hsl(280 100% 70%));
+    --card-gradient: linear-gradient(145deg, hsl(240 5.9% 10%), hsl(240 3.7% 15.9%));
+    --skill-gradient: linear-gradient(90deg, hsl(217 91% 60%), hsl(195 100% 50%));
     
     --radius: 0.75rem;
 
@@ -88,9 +88,9 @@ All colors MUST be HSL.
     --input: 240 5.9% 90%;
     --ring: 217 91% 60%;
 
-    --tech-gradient: linear-gradient(135deg, 217 91% 60%, 280 100% 70%);
-    --card-gradient: linear-gradient(145deg, 0 0% 100%, 240 2% 98%);
-    --skill-gradient: linear-gradient(90deg, 217 91% 60%, 195 100% 50%);
+    --tech-gradient: linear-gradient(135deg, hsl(217 91% 60%), hsl(280 100% 70%));
+    --card-gradient: linear-gradient(145deg, hsl(0 0% 100%), hsl(240 2% 98%));
+    --skill-gradient: linear-gradient(90deg, hsl(217 91% 60%), hsl(195 100% 50%));
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
