@@ -68,6 +68,20 @@ const experiences: Experience[] = [
     technologies: ["Communication", "Service Client", "Administration", "Suivi de Dossiers", "Gestion Administrative"]
   },
   {
+    title: "Programme Erasmus+",
+    company: "Union Européenne",
+    location: "Slovénie",
+    period: "5-20 Septembre 2021",
+    description: [
+      "Participation à un programme d'échange européen Erasmus+",
+      "Immersion culturelle et linguistique internationale",
+      "Développement de compétences interculturelles et d'adaptabilité",
+      "Collaboration avec des participants de différents pays européens",
+      "Renforcement de l'autonomie et de l'ouverture internationale"
+    ],
+    technologies: ["Communication interculturelle", "Adaptabilité", "Langues étrangères", "Collaboration internationale", "Mobilité européenne"]
+  },
+  {
     title: "Stage Odoo",
     company: "Odoo",
     location: "Belgique",
