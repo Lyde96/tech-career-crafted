@@ -31,6 +31,7 @@ interface OnlineCourse {
 }
 
 const onlineCourses: OnlineCourse[] = [
+  { title: "Système d'automatisation avec l'IA", platform: "OrrAcademy", year: "2025", certificate: true },
   { title: "Advanced React & Redux", platform: "Udemy", year: "2023", certificate: true },
   { title: "AWS Solutions Architect", platform: "A Cloud Guru", year: "2022", certificate: true },
   { title: "Kubernetes for Developers", platform: "Pluralsight", year: "2022", certificate: true },
