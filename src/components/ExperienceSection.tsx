@@ -14,6 +14,20 @@ interface Experience {
 const experiences: Experience[] = [
   {
     title: "Data Engineer",
+    company: "Décathlon",
+    location: "Bruxelles, Belgique",
+    period: "2024 - Présent",
+    description: [
+      "Conception et développement de pipelines de données pour l'optimisation des performances retail",
+      "Analyse de données de vente et de performance produits pour améliorer l'expérience client",
+      "Mise en place d'outils de Business Intelligence pour le suivi des KPIs business",
+      "Collaboration avec les équipes marketing et merchandising pour l'analyse prédictive",
+      "Développement de tableaux de bord temps réel pour le pilotage des activités commerciales"
+    ],
+    technologies: ["Python", "SQL", "Power BI", "Apache Spark", "Azure", "Databricks", "Docker", "Git", "ETL"]
+  },
+  {
+    title: "Data Engineer",
     company: "Tech Data Solutions",
     location: "Bruxelles, Belgique",
     period: "2024 - Présent",
