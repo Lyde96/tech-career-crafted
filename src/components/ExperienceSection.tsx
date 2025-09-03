@@ -13,7 +13,7 @@ interface Experience {
 
 const experiences: Experience[] = [
   {
-    title: "Data Engineer",
+    title: "STAGE Data Engineer",
     company: "Décathlon",
     location: "Bruxelles, Belgique",
     period: "octobre 2024 - Mai 2025",
