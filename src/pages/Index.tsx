@@ -8,6 +8,11 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <div className="max-w-7xl mx-auto px-4 py-8 space-y-12">
+        {/* Main title */}
+        <h1 className="text-6xl font-bold text-center bg-tech-gradient bg-clip-text text-transparent">
+          Lydéric YABADA
+        </h1>
+        
         {/* Header with profile */}
         <CVHeader />
         
