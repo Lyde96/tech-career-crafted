@@ -92,7 +92,7 @@ export const EducationSection = () => {
         <div className="space-y-4">
           <h3 className="text-lg font-semibold flex items-center gap-2">
             <Award className="w-5 h-5 text-primary" />
-            Certifications et Formations
+            Certifications complémentaires
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
             {onlineCourses.map((course, index) => (
