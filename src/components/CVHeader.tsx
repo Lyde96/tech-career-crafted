@@ -21,7 +21,7 @@ export const CVHeader = () => {
               Lydéric Yabada
             </h1>
             <h2 className="text-xl text-muted-foreground font-medium">
-              Développeur Web Full Stack
+              Web-dev/Data Engineer
             </h2>
             <p className="text-foreground/80 max-w-2xl leading-relaxed">
               Passionné par le développement web moderne, je crée des applications 
