@@ -1,7 +1,7 @@
 import { Mail, Phone, MapPin, Github, Linkedin, Globe } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import profilePhoto from "@/assets/profile-photo.jpg";
+// Using uploaded profile photo
 
 export const CVHeader = () => {
   return (
@@ -9,7 +9,7 @@ export const CVHeader = () => {
       <div className="flex flex-col md:flex-row gap-8 items-start">
         <div className="flex-shrink-0">
           <img
-            src={profilePhoto}
+            src="/lovable-uploads/91f48df4-bd41-4aab-a782-8513160c5cad.png"
             alt="Photo de profil"
             className="w-32 h-32 rounded-xl object-cover border-2 border-primary/20"
           />
