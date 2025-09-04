@@ -41,68 +41,62 @@ const onlineCourses: OnlineCourse[] = [
 
 export const EducationSection = () => {
   return (
-    <div className="space-y-6">
-      <h2 className="text-2xl font-bold flex items-center gap-2">
+    <Card className="p-6 bg-card-gradient border-border/50">
+      <h2 className="text-2xl font-bold flex items-center gap-2 mb-6">
         <div className="w-2 h-8 bg-tech-gradient rounded-full" />
         Formation & Éducation
       </h2>
       
-      {/* Formation académique */}
-      <div className="space-y-4">
-        {education.map((edu, index) => (
-          <Card key={index} className="p-6 bg-card-gradient border-border/50">
-            <div className="space-y-4">
-              <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2">
-                <div className="space-y-1">
-                  <h3 className="text-lg font-semibold text-primary flex items-center gap-2">
-                    <GraduationCap className="w-5 h-5" />
-                    {edu.degree}
-                  </h3>
-                  <p className="font-medium text-foreground">{edu.school}</p>
-                  {edu.specialization && (
-                    <p className="text-sm text-muted-foreground">
-                      Spécialisation: {edu.specialization}
-                    </p>
-                  )}
-                </div>
-                <div className="flex flex-col md:items-end gap-1 text-sm text-muted-foreground">
-                  <div className="flex items-center gap-1">
-                    <Calendar className="w-4 h-4" />
-                    <span>{edu.period}</span>
+      <div className="space-y-8">
+        {/* Formation académique */}
+        <div className="space-y-4">
+          <h3 className="text-lg font-semibold flex items-center gap-2">
+            <GraduationCap className="w-5 h-5 text-primary" />
+            Formation Académique
+          </h3>
+          {education.map((edu, index) => (
+            <Card key={index} className="p-4 bg-muted/20 border-border/30">
+              <div className="space-y-3">
+                <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2">
+                  <div className="space-y-1">
+                    <h4 className="font-semibold text-primary">{edu.degree}</h4>
+                    <p className="font-medium text-foreground">{edu.school}</p>
+                    {edu.specialization && (
+                      <p className="text-sm text-muted-foreground">
+                        Spécialisation: {edu.specialization}
+                      </p>
+                    )}
                   </div>
-                  <div className="flex items-center gap-1">
-                    <MapPin className="w-4 h-4" />
-                    <span>{edu.location}</span>
+                  <div className="flex flex-col md:items-end gap-1 text-sm text-muted-foreground">
+                    <div className="flex items-center gap-1">
+                      <Calendar className="w-4 h-4" />
+                      <span>{edu.period}</span>
+                    </div>
+                    <div className="flex items-center gap-1">
+                      <MapPin className="w-4 h-4" />
+                      <span>{edu.location}</span>
+                    </div>
                   </div>
-                  {edu.grade && (
-                    <Badge className="bg-primary/10 text-primary border-primary/20 mt-1">
-                      <Award className="w-3 h-3 mr-1" />
-                      {edu.grade}
-                    </Badge>
-                  )}
                 </div>
+                {edu.description && (
+                  <p className="text-foreground/80 text-sm leading-relaxed">
+                    {edu.description}
+                  </p>
+                )}
               </div>
-              
-              {edu.description && (
-                <p className="text-foreground/80 text-sm leading-relaxed">
-                  {edu.description}
-                </p>
-              )}
-            </div>
-          </Card>
-        ))}
-      </div>
-      
-      {/* Certifications et formations */}
-      <div className="space-y-4">
-        <h3 className="text-lg font-semibold flex items-center gap-2">
-          <Award className="w-5 h-5 text-primary" />
-          Certifications et Formations
-        </h3>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {onlineCourses.map((course, index) => (
-            <Card key={index} className="p-4 bg-card-gradient border-border/50">
-              <div className="flex items-center justify-between">
+            </Card>
+          ))}
+        </div>
+
+        {/* Certifications et formations */}
+        <div className="space-y-4">
+          <h3 className="text-lg font-semibold flex items-center gap-2">
+            <Award className="w-5 h-5 text-primary" />
+            Certifications et Formations
+          </h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+            {onlineCourses.map((course, index) => (
+              <div key={index} className="flex items-center justify-between p-3 bg-muted/20 rounded-lg border border-border/30">
                 <div>
                   <p className="font-medium text-sm">{course.title}</p>
                   <p className="text-xs text-muted-foreground">{course.platform} • {course.year}</p>
@@ -113,33 +107,33 @@ export const EducationSection = () => {
                   </Badge>
                 )}
               </div>
-            </Card>
-          ))}
+            ))}
+          </div>
+        </div>
+
+        {/* Langues */}
+        <div className="space-y-4">
+          <h3 className="text-lg font-semibold">Langues</h3>
+          <div className="flex flex-wrap gap-4">
+            <div className="flex items-center gap-2">
+              <span className="font-medium">Français</span>
+              <Badge className="bg-primary/10 text-primary border-primary/20">Natif</Badge>
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="font-medium">Anglais</span>
+              <Badge className="bg-primary/10 text-primary border-primary/20">C1 - Courant</Badge>
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="font-medium">Néerlandais</span>
+              <Badge className="bg-primary/10 text-primary border-primary/20">B2 - Intermédiaire</Badge>
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="font-medium">Espagnol</span>
+              <Badge className="bg-primary/10 text-primary border-primary/20">B2 - Intermédiaire</Badge>
+            </div>
+          </div>
         </div>
       </div>
-      
-      {/* Langues */}
-      <Card className="p-6 bg-card-gradient border-border/50">
-        <h3 className="text-lg font-semibold mb-4">Langues</h3>
-        <div className="flex flex-wrap gap-4">
-          <div className="flex items-center gap-2">
-            <span className="font-medium">Français</span>
-            <Badge className="bg-primary/10 text-primary border-primary/20">Natif</Badge>
-          </div>
-          <div className="flex items-center gap-2">
-            <span className="font-medium">Anglais</span>
-            <Badge className="bg-primary/10 text-primary border-primary/20">C1 - Courant</Badge>
-          </div>
-          <div className="flex items-center gap-2">
-            <span className="font-medium">Néerlandais</span>
-            <Badge className="bg-primary/10 text-primary border-primary/20">B2 - Intermédiaire</Badge>
-          </div>
-          <div className="flex items-center gap-2">
-            <span className="font-medium">Espagnol</span>
-            <Badge className="bg-primary/10 text-primary border-primary/20">B2 - Intermédiaire</Badge>
-          </div>
-        </div>
-      </Card>
-    </div>
+    </Card>
   );
 };
