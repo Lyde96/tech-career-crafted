@@ -97,7 +97,7 @@ export const EducationSection = () => {
       <Card className="p-6 bg-card-gradient border-border/50">
         <h3 className="text-lg font-semibold mb-4 flex items-center gap-2">
           <Award className="w-5 h-5 text-primary" />
-          Formations Complémentaires
+          Certifications et Formations
         </h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {onlineCourses.map((course, index) => (
