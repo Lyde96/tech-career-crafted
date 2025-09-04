@@ -93,28 +93,30 @@ export const EducationSection = () => {
         ))}
       </div>
       
-      {/* Formation en ligne */}
-      <Card className="p-6 bg-card-gradient border-border/50">
-        <h3 className="text-lg font-semibold mb-4 flex items-center gap-2">
+      {/* Certifications et formations */}
+      <div className="space-y-4">
+        <h3 className="text-lg font-semibold flex items-center gap-2">
           <Award className="w-5 h-5 text-primary" />
           Certifications et Formations
         </h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {onlineCourses.map((course, index) => (
-            <div key={index} className="flex items-center justify-between p-3 bg-muted/20 rounded-lg">
-              <div>
-                <p className="font-medium text-sm">{course.title}</p>
-                <p className="text-xs text-muted-foreground">{course.platform} • {course.year}</p>
+            <Card key={index} className="p-4 bg-card-gradient border-border/50">
+              <div className="flex items-center justify-between">
+                <div>
+                  <p className="font-medium text-sm">{course.title}</p>
+                  <p className="text-xs text-muted-foreground">{course.platform} • {course.year}</p>
+                </div>
+                {course.certificate && (
+                  <Badge variant="outline" className="bg-green-500/10 text-green-400 border-green-500/20 text-xs">
+                    Certifié
+                  </Badge>
+                )}
               </div>
-              {course.certificate && (
-                <Badge variant="outline" className="bg-green-500/10 text-green-400 border-green-500/20 text-xs">
-                  Certifié
-                </Badge>
-              )}
-            </div>
+            </Card>
           ))}
         </div>
-      </Card>
+      </div>
       
       {/* Langues */}
       <Card className="p-6 bg-card-gradient border-border/50">
