@@ -40,20 +40,6 @@ const achievements: Achievement[] = [
     technologies: ["CRM", "Marketing Automation", "Analytics", "Sales Funnel"],
     icon: <Target className="w-5 h-5" />,
     category: "Business Growth"
-  },
-  {
-    title: "Infrastructure IT Bancaire",
-    company: "National Bank",
-    impact: "Optimisation complète de l'écosystème informatique bancaire",
-    metrics: [
-      "95% tickets résolus <2h",
-      "98% satisfaction client",
-      "40% réduction temps d'arrêt",
-      "500+ appareils gérés"
-    ],
-    technologies: ["Windows", "iOS", "VOIP", "Odoo", "Systèmes Bancaires"],
-    icon: <Zap className="w-5 h-5" />,
-    category: "Technical Excellence"
   }
 ];
 
