@@ -24,24 +24,23 @@ export const CVHeader = () => {
               Web-dev/Data Engineer
             </h2>
             <p className="text-foreground/80 max-w-2xl leading-relaxed">
-              Passionné par le développement web moderne, je crée des applications 
-              performantes et intuitives en utilisant les dernières technologies. 
-              Expertise en React, Node.js et architectures cloud.
+              <strong>Spécialiste Data Engineering & Analytics</strong> avec une expertise en développement d'applications web. 
+              J'aide les entreprises à transformer leurs données en avantage concurrentiel grâce à des solutions technologiques performantes.
             </p>
           </div>
           
           <div className="flex flex-wrap gap-2">
             <Badge variant="secondary" className="bg-primary/10 text-primary border-primary/20">
-              JavaScript/TypeScript
+              Python • SQL • ETL
             </Badge>
             <Badge variant="secondary" className="bg-primary/10 text-primary border-primary/20">
-              React/Next.js
+              Power BI • Databricks
             </Badge>
             <Badge variant="secondary" className="bg-primary/10 text-primary border-primary/20">
-              Node.js
+              Azure • Apache Spark
             </Badge>
             <Badge variant="secondary" className="bg-primary/10 text-primary border-primary/20">
-              Python
+              React • TypeScript
             </Badge>
           </div>
         </div>

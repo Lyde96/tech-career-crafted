@@ -3,6 +3,7 @@ import { ExperienceSection } from "@/components/ExperienceSection";
 import { SkillsSection } from "@/components/SkillsSection";
 import { ProjectsSection } from "@/components/ProjectsSection";
 import { EducationSection } from "@/components/EducationSection";
+import { AchievementsSection } from "@/components/AchievementsSection";
 
 const Index = () => {
   return (
@@ -14,8 +15,9 @@ const Index = () => {
         
         {/* Main content in two columns */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-          {/* Left column - Experience and Projects */}
+          {/* Left column - Achievements, Experience and Projects */}
           <div className="lg:col-span-2 space-y-12">
+            <AchievementsSection />
             <ExperienceSection />
             <ProjectsSection />
           </div>
