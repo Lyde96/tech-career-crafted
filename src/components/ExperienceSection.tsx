@@ -40,18 +40,24 @@ const experiences: Experience[] = [
     technologies: ["Growth Hacking", "Marketing Digital", "CRM", "Analytics", "Automation", "Sales Funnel"]
   },
   {
-    title: "IT Desk Support",
-    company: "National Bank",
+    title: "IT Support Engineer (Proximity Agent)",
+    company: "European Commission (Venthone)",
     location: "Bruxelles, Belgique",
     period: "Sep 2022 - Jun 2023",
     description: [
-      "🔧 Support haute performance : Résolution de 95% des tickets en <2h, satisfaction client 98%",
-      "📞 Infrastructure VOIP : Déploiement de 200+ licences sans interruption de service",
-      "⚡ Optimisation systèmes : Réduction de 40% des temps d'arrêt grâce à la maintenance préventive",
-      "📱 Support multi-plateformes : Gestion de 500+ appareils iOS et applications métier critiques",
-      "🛠️ Expertise technique : Maîtrise complète de l'écosystème bancaire (Resengo, Odoo)"
+      "🎯 Évaluation initiale d'incidents selon les meilleures pratiques ITIL",
+      "👑 Support VIP et VVIP : Assistance privilégiée aux utilisateurs de haut niveau",
+      "🔄 Migrations VIP : Accompagnement personnalisé pour les utilisateurs prioritaires",
+      "📋 Gestion de tickets : Enregistrement et suivi des incidents dans le système de ticketing",
+      "⏱️ Monitoring SLA : Surveillance des délais de résolution selon les accords de service",
+      "🛠️ Support 1ère & 2ème ligne : Dépannage logiciel et matériel complet",
+      "🔧 Diagnostic avancé : Résolution d'issues techniques sur applications et OS",
+      "💻 Configuration matériel : Support postes de travail, laptops, imprimantes et mobiles",
+      "📱 Support mobile : Configuration et dépannage iOS/Android",
+      "🤝 Liaison technique : Interface entre utilisateurs et département IT",
+      "📚 Base de connaissances : Création d'articles et amélioration des procédures"
     ],
-    technologies: ["Windows", "iOS", "VOIP", "Ricoh", "Canon", "Lexmark", "Resengo", "Odoo"]
+    technologies: ["Windows 10", "MS Office 365", "SharePoint", "iOS", "MDM", "ServiceNow", "Active Directory", "Landesk", "Videoconferencing"]
   },
   {
     title: "Assistant Administratif",
