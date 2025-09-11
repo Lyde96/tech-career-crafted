@@ -65,7 +65,7 @@ export const CVHeader = () => {
             className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
           >
             <Github className="w-4 h-4" />
-            <span>GitHub Profile</span>
+            <span>GitHub Profile /Lyde96</span>
           </a>
           <a 
             href="https://www.linkedin.com/in/lyd%C3%A9ric-yabada-06357a351/" 
@@ -74,7 +74,7 @@ export const CVHeader = () => {
             className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
           >
             <Linkedin className="w-4 h-4" />
-            <span>LinkedIn Profile</span>
+            <span>LinkedIn Profile /Lydéric Yabada</span>
           </a>
           <div className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
             <Globe className="w-4 h-4" />
