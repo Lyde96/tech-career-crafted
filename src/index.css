@@ -115,61 +115,60 @@ All colors MUST be HSL.
 /* Print styles for PDF export */
 @media print {
   :root {
-    --background: 255 255 255;
-    --foreground: 0 0 0;
-    --card: 255 255 255;
-    --card-foreground: 0 0 0;
-    --primary: 59 130 246;
-    --primary-foreground: 255 255 255;
-    --secondary: 243 244 246;
-    --secondary-foreground: 17 24 39;
-    --muted: 243 244 246;
-    --muted-foreground: 107 114 128;
-    --accent: 243 244 246;
-    --accent-foreground: 17 24 39;
-    --border: 229 231 235;
-    --input: 229 231 235;
-    --ring: 59 130 246;
+    /* Switch to a light theme for printing using HSL variables */
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+
+    --primary: 217 91% 60%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 217 91% 60%;
+
+    /* Disable gradients for clearer prints */
+    --tech-gradient: none;
+    --card-gradient: none;
+    --skill-gradient: none;
   }
-  
-  body {
-    background: white !important;
-    color: black !important;
+
+  * {
     -webkit-print-color-adjust: exact !important;
     print-color-adjust: exact !important;
   }
-  
-  .bg-background {
-    background: white !important;
+
+  html, body {
+    background: hsl(var(--background)) !important;
+    color: hsl(var(--foreground)) !important;
   }
-  
-  .text-foreground {
-    color: black !important;
+
+  /* Remove heavy visual effects that don't print well */
+  .shadow, .shadow-sm, .shadow-md, .shadow-lg, .shadow-xl, .shadow-2xl,
+  .drop-shadow, .drop-shadow-sm, .drop-shadow-md, .drop-shadow-lg, .drop-shadow-xl, .drop-shadow-2xl {
+    box-shadow: none !important;
+    filter: none !important;
   }
-  
-  .bg-card {
-    background: white !important;
-    border: 1px solid #e5e7eb !important;
-  }
-  
-  .text-card-foreground {
-    color: black !important;
-  }
-  
-  .text-muted-foreground {
-    color: #6b7280 !important;
-  }
-  
-  .text-primary {
-    color: #3b82f6 !important;
-  }
-  
-  .bg-primary {
-    background: #3b82f6 !important;
-    color: white !important;
-  }
-  
-  .border-border {
-    border-color: #e5e7eb !important;
+
+  /* Ensure borders are visible */
+  .border, .ring, .ring-1 {
+    border-color: hsl(var(--border)) !important;
   }
 }
