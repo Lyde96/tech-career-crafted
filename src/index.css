@@ -111,3 +111,65 @@ All colors MUST be HSL.
     @apply bg-background text-foreground;
   }
 }
+
+/* Print styles for PDF export */
+@media print {
+  :root {
+    --background: 255 255 255;
+    --foreground: 0 0 0;
+    --card: 255 255 255;
+    --card-foreground: 0 0 0;
+    --primary: 59 130 246;
+    --primary-foreground: 255 255 255;
+    --secondary: 243 244 246;
+    --secondary-foreground: 17 24 39;
+    --muted: 243 244 246;
+    --muted-foreground: 107 114 128;
+    --accent: 243 244 246;
+    --accent-foreground: 17 24 39;
+    --border: 229 231 235;
+    --input: 229 231 235;
+    --ring: 59 130 246;
+  }
+  
+  body {
+    background: white !important;
+    color: black !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+  
+  .bg-background {
+    background: white !important;
+  }
+  
+  .text-foreground {
+    color: black !important;
+  }
+  
+  .bg-card {
+    background: white !important;
+    border: 1px solid #e5e7eb !important;
+  }
+  
+  .text-card-foreground {
+    color: black !important;
+  }
+  
+  .text-muted-foreground {
+    color: #6b7280 !important;
+  }
+  
+  .text-primary {
+    color: #3b82f6 !important;
+  }
+  
+  .bg-primary {
+    background: #3b82f6 !important;
+    color: white !important;
+  }
+  
+  .border-border {
+    border-color: #e5e7eb !important;
+  }
+}
