@@ -13,6 +13,21 @@ interface Experience {
 
 const experiences: Experience[] = [
   {
+    title: "Participant Hackathon Orange",
+    company: "Orange",
+    location: "Belgique",
+    period: "14-15 Mars 2025",
+    description: [
+      "🤖 Innovation IA : Développement de 5 solutions technologiques avancées en 48h",
+      "💬 Chatbot intelligent : Création d'un assistant virtuel pour optimiser la compréhension des offres clients hey!",
+      "🎨 IA générative : Développement d'un outil d'automatisation pour la création de contenu marketing visuel",
+      "🔒 Cybersécurité automatisée : Conception d'une solution de maintenance préventive pour sites web",
+      "👥 Assistant RH virtuel : Développement d'un outil de planification intelligente des effectifs",
+      "🔍 Support collaborateurs : Création d'un chatbot de recherche d'informations internes instantané"
+    ],
+    technologies: ["IA Générative", "Chatbot", "Machine Learning", "Cybersécurité", "Automation", "NLP", "API", "Innovation"]
+  },
+  {
     title: "Data Engineer",
     company: "Décathlon",
     location: "Anderlecht, Belgique",
