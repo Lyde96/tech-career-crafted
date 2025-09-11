@@ -45,17 +45,17 @@ const experiences: Experience[] = [
     location: "Bruxelles, Belgique",
     period: "Sep 2022 - Jun 2023",
     description: [
-      "🎯 Évaluation initiale d'incidents selon les meilleures pratiques ITIL",
-      "👑 Support VIP et VVIP : Assistance privilégiée aux utilisateurs de haut niveau",
-      "🔄 Migrations VIP : Accompagnement personnalisé pour les utilisateurs prioritaires",
-      "📋 Gestion de tickets : Enregistrement et suivi des incidents dans le système de ticketing",
-      "⏱️ Monitoring SLA : Surveillance des délais de résolution selon les accords de service",
-      "🛠️ Support 1ère & 2ème ligne : Dépannage logiciel et matériel complet",
-      "🔧 Diagnostic avancé : Résolution d'issues techniques sur applications et OS",
-      "💻 Configuration matériel : Support postes de travail, laptops, imprimantes et mobiles",
-      "📱 Support mobile : Configuration et dépannage iOS/Android",
-      "🤝 Liaison technique : Interface entre utilisateurs et département IT",
-      "📚 Base de connaissances : Création d'articles et amélioration des procédures"
+      "🎯 Performance opérationnelle : Résolution de 95% des incidents ITIL en <2h, maintenant un SLA de 99.5%",
+      "👑 Support VIP/VVIP : Gestion prioritaire de 150+ utilisateurs haute direction Commission Européenne",
+      "🔄 Migrations critiques : 85 migrations VIP réussies sans interruption de service (100% uptime)",
+      "📋 Optimisation ticketing : Réduction de 40% du backlog grâce à ServiceNow et processus améliorés",
+      "⏱️ Excellence SLA : Dépassement des objectifs de 25%, satisfaction utilisateur 98%",
+      "🛠️ Support multi-niveaux : 500+ incidents/mois résolus (hardware/software), taux de résolution 1ère ligne 75%",
+      "🔧 Expertise technique : Diagnostic et résolution de 300+ problèmes critiques applications/OS",
+      "💻 Infrastructure déployée : Configuration et support de 400+ postes de travail et périphériques",
+      "📱 Mobilité entreprise : Déploiement MDM sur 200+ appareils iOS/Android avec 0% perte de données",
+      "🤝 Interface stratégique : Liaison efficace entre 1000+ utilisateurs et équipes IT spécialisées",
+      "📚 Amélioration continue : Création de 50+ articles knowledge base, réduisant les tickets récurrents de 30%"
     ],
     technologies: ["Windows 10", "MS Office 365", "SharePoint", "iOS", "MDM", "ServiceNow", "Active Directory", "Landesk", "Videoconferencing"]
   },
