@@ -15,7 +15,7 @@ const experiences: Experience[] = [
   {
     title: "Participant Hackathon Orange",
     company: "Orange",
-    location: "Belgique",
+    location: "Paris, France",
     period: "14-15 Mars 2025",
     description: [
       "🤖 Innovation IA : Développement de 5 solutions technologiques avancées en 48h",
