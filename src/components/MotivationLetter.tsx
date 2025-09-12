@@ -10,7 +10,7 @@ export const MotivationLetter = () => {
             Lettre de Motivation
           </h1>
           <p className="text-muted-foreground">
-            Candidature pour le poste de Risk Engineer IT - STIB
+            Candidature pour le poste de Manager Service Delivery Digital Workplace - STIB
           </p>
         </div>
 
@@ -20,36 +20,36 @@ export const MotivationLetter = () => {
           </div>
 
           <p>
-            L'opportunité de rejoindre la STIB en tant que Risk Engineer IT représente pour moi un défi professionnel particulièrement stimulant. En tant que Data Engineer et développeur full stack expérimenté, habitué à l'analyse de risques techniques et à la gestion proactive des enjeux opérationnels, je suis convaincu que mon profil analytique et méthodologique correspond parfaitement aux exigences de ce poste stratégique.
+            L'opportunité de rejoindre la STIB en tant que Manager Service Delivery Digital Workplace représente pour moi un défi professionnel exceptionnellement motivant. En tant que Data Engineer et développeur full stack expérimenté, doté d'une solide expérience en gestion d'équipes techniques et en définition de stratégies digitales, je suis convaincu que mon profil de leader technique et ma vision stratégique correspondent parfaitement aux exigences de ce poste managérial.
           </p>
 
           <p>
-            <strong>Expertise en analyse de risques IT et gestion de projets</strong><br />
-            Mon expérience en développement de solutions complexes et en architecture de données m'a naturellement amené à identifier, quantifier et mitiger les risques techniques tout au long du cycle de vie des projets. Ma maîtrise des méthodologies de gestion de projets, couplée à ma compréhension approfondie des systèmes d'information, me positionne idéalement pour développer et améliorer les processus de Risk Management au sein d'Information Systems. Mon expertise en documentation technique et en analyse de faisabilité constitue une base solide pour l'évaluation des risques opérationnels et projets.
+            <strong>Leadership et gestion d'équipes multidisciplinaires</strong><br />
+            Mon expérience en encadrement d'équipes techniques et ma capacité à développer les compétences individuelles me positionnent idéalement pour manager une équipe de 20 personnes. Ma maîtrise du coaching technique, de l'évaluation des performances et de la motivation d'équipes me permettra d'assurer un accompagnement personnalisé de chaque collaborateur. Mon approche collaborative du leadership, couplée à ma capacité d'écoute active et d'empathie, garantira un environnement de travail épanouissant et performant pour l'ensemble de l'équipe Service Delivery.
           </p>
 
           <p>
-            <strong>Capacités d'accompagnement et de formation</strong><br />
-            Mes compétences en coaching technique, développées à travers la formation de collègues et l'accompagnement d'équipes dans l'adoption de nouvelles méthodologies, me préparent naturellement à jouer le rôle d'ambassadeur de l'Enterprise Risk Management. Mon expérience en vulgarisation de concepts complexes et ma capacité à sensibiliser les équipes aux enjeux techniques me permettront de promouvoir efficacement les méthodes et processus de gestion des risques. Ma facilité à animer des groupes de travail et à créer une dynamique collaborative sera précieuse pour faire adopter les bonnes pratiques.
+            <strong>Expertise en stratégie Digital Workplace et gouvernance IT</strong><br />
+            Ma compréhension approfondie des écosystèmes digitaux et ma maîtrise des solutions collaboratives (SharePoint, M365) me permettront de définir et mettre en œuvre une stratégie Digital Workplace innovante et mesurable. Mon expérience en architecture de systèmes d'information et ma connaissance des frameworks ITIL/Service Management constituent des atouts majeurs pour superviser les niveaux de service et établir une gouvernance rigoureuse des solutions low-code et collaboratives. Ma capacité à traduire une vision stratégique en plans d'actions concrets facilitera l'adoption des meilleures pratiques.
           </p>
 
           <p>
-            <strong>Vision analytique et approche méthodologique</strong><br />
-            Mon esprit d'analyse, développé dans l'optimisation de performances et la résolution d'incidents complexes, me permet d'identifier rapidement les risques transversaux et émergents. Ma rigueur en matière de processus et ma capacité à structurer des approches méthodologiques garantiront une mise en œuvre cohérente du système de Risk Management. Mon expérience avec les outils de gestion de projets et ma connaissance d'environnements comme JIRA faciliteront l'implémentation et le suivi des plans d'actions de mitigation.
+            <strong>Gestion budgétaire et optimisation des ressources</strong><br />
+            Mon esprit analytique et ma rigueur dans la gestion de projets complexes me préparent naturellement à piloter les ressources financières et optimiser les coûts de licences. Ma capacité à négocier et à maintenir des relations positives avec les fournisseurs, associée à ma vision d'ensemble des enjeux techniques, me permettra de gérer efficacement les contrats existants et les marchés publics futurs. Mon approche méthodologique garantira une gestion rigoureuse du budget tout en optimisant la qualité de service.
           </p>
 
           <p>
-            <strong>Leadership collaboratif et orientation résultats</strong><br />
-            Ma capacité d'écoute active, mon assertivité naturelle et ma facilité à mobiliser les équipes autour d'objectifs communs me permettront de créer une culture proactive de gestion des risques. Mon orientation client et ma capacité à communiquer efficacement avec différents stakeholders seront essentielles pour assurer le reporting mensuel et représenter les enjeux de Risk Management auprès des responsables. Ma capacité à prendre des décisions éclairées et à challenger constructivement les équipes contribuera à l'excellence opérationnelle d'Information Systems.
+            <strong>Vision stratégique et capacité de transformation</strong><br />
+            Ma facilité à impulser le changement et à lancer des initiatives innovantes me positionne parfaitement pour accompagner la transformation digitale du Service Delivery. Mon assertivité naturelle et ma capacité à challenger constructivement les équipes permettront d'identifier les opportunités d'amélioration et de mettre en place les évolutions nécessaires. Ma vision analytique et synthétique facilitera l'élaboration du plan d'assurance qualité et la gestion proactive des risques d'obsolescence et budgétaires.
           </p>
 
           <p>
-            <strong>Passion pour l'innovation et la continuité de service</strong><br />
-            Contribuer à faire bouger Bruxelles en garantissant la fiabilité et la sécurité des systèmes d'information de la STIB me motive profondément. L'opportunité de participer à la maturation des équipes sur les enjeux de gestion des risques et d'accompagner l'évolution méthodologique d'une entreprise aussi stratégique représente un défi professionnel exceptionnel. Je suis enthousiaste à l'idée de mettre mon expertise analytique au service de la performance et de la continuité des services de transport public.
+            <strong>Passion pour l'excellence opérationnelle et la continuité de service</strong><br />
+            Contribuer à faire bouger Bruxelles en garantissant la continuité et la disponibilité des services informatiques de la STIB me motive profondément. L'opportunité de superviser l'ensemble des solutions destinées aux utilisateurs finaux et d'optimiser leur expérience digitale représente un défi professionnel exceptionnel. Je suis enthousiaste à l'idée de mettre mon expertise technique et managériale au service de l'excellence opérationnelle du Service Delivery et de la transformation digitale de l'entreprise.
           </p>
 
           <p>
-            Convaincu que mon profil technique et analytique, associé à ma passion pour la méthodologie et l'accompagnement d'équipes, peut apporter une valeur ajoutée significative à votre équipe Process & Governance, je serais ravi d'échanger plus en détail sur ma vision du Risk Management IT et mes propositions d'amélioration lors d'un entretien.
+            Convaincu que mon profil de leader technique, associé à ma vision stratégique et ma passion pour l'innovation, peut apporter une valeur ajoutée significative à votre département Service Delivery, je serais ravi d'échanger plus en détail sur ma vision de la Digital Workplace et mes propositions de développement lors d'un entretien.
           </p>
 
           <p>
@@ -64,16 +64,19 @@ export const MotivationLetter = () => {
 
         <div className="flex flex-wrap gap-2 pt-4 border-t border-border/50">
           <Badge variant="secondary" className="bg-primary/10 text-primary border-primary/20">
-            Risk Management
+            Digital Workplace
           </Badge>
           <Badge variant="secondary" className="bg-primary/10 text-primary border-primary/20">
-            Enterprise Risk Management
+            Service Delivery
           </Badge>
           <Badge variant="secondary" className="bg-primary/10 text-primary border-primary/20">
-            Leadership Collaboratif
+            Leadership & Management
           </Badge>
           <Badge variant="secondary" className="bg-primary/10 text-primary border-primary/20">
-            Analyse de Risques IT
+            ITIL & Gouvernance IT
+          </Badge>
+          <Badge variant="secondary" className="bg-primary/10 text-primary border-primary/20">
+            M365 & SharePoint
           </Badge>
         </div>
       </div>
