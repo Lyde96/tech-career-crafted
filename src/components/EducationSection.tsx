@@ -1,6 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { GraduationCap, Calendar, MapPin, Award } from "lucide-react";
+import educationPhoto from "@/assets/education-photo.jpg";
 
 interface Education {
   degree: string;
@@ -131,6 +132,17 @@ export const EducationSection = () => {
               <span className="font-medium">Espagnol</span>
               <Badge className="bg-primary/10 text-primary border-primary/20">B2 - Intermédiaire</Badge>
             </div>
+          </div>
+        </div>
+
+        {/* Photo de formation */}
+        <div className="space-y-4">
+          <div className="flex justify-center">
+            <img 
+              src={educationPhoto} 
+              alt="Photo professionnelle de Lydéric Yabada"
+              className="w-64 h-80 object-cover rounded-lg border border-border/30"
+            />
           </div>
         </div>
       </div>
