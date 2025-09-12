@@ -10,7 +10,7 @@ export const MotivationLetter = () => {
             Lettre de Motivation
           </h1>
           <p className="text-muted-foreground">
-            Candidature pour le poste d'IT Manager Sales Solutions - STIB
+            Candidature pour le poste de Risk Engineer IT - STIB
           </p>
         </div>
 
@@ -20,36 +20,36 @@ export const MotivationLetter = () => {
           </div>
 
           <p>
-            L'opportunité de rejoindre la STIB en tant qu'IT Manager Sales Solutions représente pour moi un défi professionnel particulièrement stimulant. En tant que Data Engineer et développeur full stack expérimenté, passionné par l'innovation technologique et la transformation digitale, je suis convaincu que mon profil technique et managérial correspond parfaitement aux exigences stratégiques de ce poste.
+            L'opportunité de rejoindre la STIB en tant que Risk Engineer IT représente pour moi un défi professionnel particulièrement stimulant. En tant que Data Engineer et développeur full stack expérimenté, habitué à l'analyse de risques techniques et à la gestion proactive des enjeux opérationnels, je suis convaincu que mon profil analytique et méthodologique correspond parfaitement aux exigences de ce poste stratégique.
           </p>
 
           <p>
-            <strong>Une expertise en architecture IT et gestion de projets</strong><br />
-            Mon expérience en développement full stack et en architecture de données me positionne idéalement pour définir les orientations stratégiques des solutions de vente STIB. Ma maîtrise des technologies web modernes, couplée à ma connaissance approfondie des architectures distribuées et des API REST, constitue une base solide pour piloter l'évolution digitale de la billettique. Mon expertise en gestion de projets complexes et en coordination d'équipes techniques s'avère directement transférable pour orchestrer les initiatives transversales du département Sales Solutions.
+            <strong>Expertise en analyse de risques IT et gestion de projets</strong><br />
+            Mon expérience en développement de solutions complexes et en architecture de données m'a naturellement amené à identifier, quantifier et mitiger les risques techniques tout au long du cycle de vie des projets. Ma maîtrise des méthodologies de gestion de projets, couplée à ma compréhension approfondie des systèmes d'information, me positionne idéalement pour développer et améliorer les processus de Risk Management au sein d'Information Systems. Mon expertise en documentation technique et en analyse de faisabilité constitue une base solide pour l'évaluation des risques opérationnels et projets.
           </p>
 
           <p>
-            <strong>Leadership technique et vision stratégique</strong><br />
-            Mes compétences en encadrement technique, développées à travers la formation de collègues et la coordination de projets multi-équipes, me préparent naturellement à gérer une équipe d'environ 20 collaborateurs. Mon expérience en définition de roadmaps techniques et en analyse de faisabilité me permettra de traduire efficacement les besoins business en solutions informatiques robustes. Ma capacité à communiquer avec différents stakeholders et à aligner les objectifs techniques avec les enjeux métier sera précieuse pour représenter le département auprès des comités internes et externes.
+            <strong>Capacités d'accompagnement et de formation</strong><br />
+            Mes compétences en coaching technique, développées à travers la formation de collègues et l'accompagnement d'équipes dans l'adoption de nouvelles méthodologies, me préparent naturellement à jouer le rôle d'ambassadeur de l'Enterprise Risk Management. Mon expérience en vulgarisation de concepts complexes et ma capacité à sensibiliser les équipes aux enjeux techniques me permettront de promouvoir efficacement les méthodes et processus de gestion des risques. Ma facilité à animer des groupes de travail et à créer une dynamique collaborative sera précieuse pour faire adopter les bonnes pratiques.
           </p>
 
           <p>
-            <strong>Maîtrise des méthodologies Agile et du service management</strong><br />
-            Mon expérience avec les processus de développement Agile et ma connaissance des outils comme Azure DevOps me permettront d'optimiser les processus de delivery et de maintenir les engagements de service vis-à-vis des clients internes et externes. Ma rigueur en matière de documentation technique et de gestion des connaissances garantira une transmission efficace de l'expertise billettique aux équipes et une continuité de service optimale.
+            <strong>Vision analytique et approche méthodologique</strong><br />
+            Mon esprit d'analyse, développé dans l'optimisation de performances et la résolution d'incidents complexes, me permet d'identifier rapidement les risques transversaux et émergents. Ma rigueur en matière de processus et ma capacité à structurer des approches méthodologiques garantiront une mise en œuvre cohérente du système de Risk Management. Mon expérience avec les outils de gestion de projets et ma connaissance d'environnements comme JIRA faciliteront l'implémentation et le suivi des plans d'actions de mitigation.
           </p>
 
           <p>
-            <strong>Passion pour la mobilité urbaine et l'innovation</strong><br />
-            Contribuer à faire bouger Bruxelles en tant qu'acteur clé de la transformation digitale du transport public me motive profondément. L'opportunité de participer à la modernisation des systèmes de billettique et d'accompagner l'évolution technologique d'une entreprise aussi emblématique que la STIB représente un défi professionnel exceptionnel. Je suis enthousiaste à l'idée de mettre mon expertise au service de l'amélioration de l'expérience client et de la performance opérationnelle.
+            <strong>Leadership collaboratif et orientation résultats</strong><br />
+            Ma capacité d'écoute active, mon assertivité naturelle et ma facilité à mobiliser les équipes autour d'objectifs communs me permettront de créer une culture proactive de gestion des risques. Mon orientation client et ma capacité à communiquer efficacement avec différents stakeholders seront essentielles pour assurer le reporting mensuel et représenter les enjeux de Risk Management auprès des responsables. Ma capacité à prendre des décisions éclairées et à challenger constructivement les équipes contribuera à l'excellence opérationnelle d'Information Systems.
           </p>
 
           <p>
-            <strong>Vision collaborative et orientée résultats</strong><br />
-            Ma capacité d'écoute active, mon esprit d'analyse et ma facilité à mobiliser les équipes autour d'objectifs communs me permettront de créer une dynamique positive au sein du département. Mon orientation client naturelle et ma capacité à prendre des décisions éclairées contribueront à l'excellence opérationnelle des solutions de vente STIB et à la satisfaction des utilisateurs finaux.
+            <strong>Passion pour l'innovation et la continuité de service</strong><br />
+            Contribuer à faire bouger Bruxelles en garantissant la fiabilité et la sécurité des systèmes d'information de la STIB me motive profondément. L'opportunité de participer à la maturation des équipes sur les enjeux de gestion des risques et d'accompagner l'évolution méthodologique d'une entreprise aussi stratégique représente un défi professionnel exceptionnel. Je suis enthousiaste à l'idée de mettre mon expertise analytique au service de la performance et de la continuité des services de transport public.
           </p>
 
           <p>
-            Convaincu que mon profil technique et managérial, associé à ma passion pour l'innovation et la mobilité urbaine, peut apporter une valeur ajoutée significative à vos équipes Sales Solutions, je serais ravi d'échanger plus en détail sur ma vision du poste et mes propositions d'amélioration lors d'un entretien.
+            Convaincu que mon profil technique et analytique, associé à ma passion pour la méthodologie et l'accompagnement d'équipes, peut apporter une valeur ajoutée significative à votre équipe Process & Governance, je serais ravi d'échanger plus en détail sur ma vision du Risk Management IT et mes propositions d'amélioration lors d'un entretien.
           </p>
 
           <p>
@@ -64,16 +64,16 @@ export const MotivationLetter = () => {
 
         <div className="flex flex-wrap gap-2 pt-4 border-t border-border/50">
           <Badge variant="secondary" className="bg-primary/10 text-primary border-primary/20">
-            IT Management
+            Risk Management
           </Badge>
           <Badge variant="secondary" className="bg-primary/10 text-primary border-primary/20">
-            Architecture Solutions
+            Enterprise Risk Management
           </Badge>
           <Badge variant="secondary" className="bg-primary/10 text-primary border-primary/20">
-            Leadership d'Équipe
+            Leadership Collaboratif
           </Badge>
           <Badge variant="secondary" className="bg-primary/10 text-primary border-primary/20">
-            Stratégie Digitale
+            Analyse de Risques IT
           </Badge>
         </div>
       </div>
