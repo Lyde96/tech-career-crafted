@@ -10,7 +10,7 @@ export const MotivationLetter = () => {
             Lettre de Motivation
           </h1>
           <p className="text-muted-foreground">
-            Candidature pour le poste de Développeur LIMS - Institut Scientifique
+            Candidature pour le poste d'IT Manager Sales Solutions - STIB
           </p>
         </div>
 
@@ -20,36 +20,36 @@ export const MotivationLetter = () => {
           </div>
 
           <p>
-            L'opportunité de rejoindre votre institut scientifique en tant que Développeur LIMS m'enthousiasme particulièrement. En tant que Data Engineer et développeur full stack passionné par l'innovation technologique et sensible aux enjeux de santé publique, je suis convaincu que mon profil technique et ma rigueur scientifique correspondent parfaitement aux exigences de ce poste stratégique.
+            L'opportunité de rejoindre la STIB en tant qu'IT Manager Sales Solutions représente pour moi un défi professionnel particulièrement stimulant. En tant que Data Engineer et développeur full stack expérimenté, passionné par l'innovation technologique et la transformation digitale, je suis convaincu que mon profil technique et managérial correspond parfaitement aux exigences stratégiques de ce poste.
           </p>
 
           <p>
-            <strong>Une expertise technique parfaitement alignée</strong><br />
-            Mon expérience en développement full stack me positionne idéalement pour évoluer dans l'écosystème STARLIMS. Ma solide maîtrise de JavaScript, associée à ma connaissance approfondie de MS SQL Server et des architectures de bases de données, constitue une base excellente pour appréhender rapidement le STARLIMS Scripting Language (SSL) et JavaScript.Net. Mon expertise en intégration de systèmes via API REST et SOAP, développée dans mes projets Data Engineering, s'avère directement transférable pour les interfaces LIMS avec les systèmes internes et externes.
+            <strong>Une expertise en architecture IT et gestion de projets</strong><br />
+            Mon expérience en développement full stack et en architecture de données me positionne idéalement pour définir les orientations stratégiques des solutions de vente STIB. Ma maîtrise des technologies web modernes, couplée à ma connaissance approfondie des architectures distribuées et des API REST, constitue une base solide pour piloter l'évolution digitale de la billettique. Mon expertise en gestion de projets complexes et en coordination d'équipes techniques s'avère directement transférable pour orchestrer les initiatives transversales du département Sales Solutions.
           </p>
 
           <p>
-            <strong>Une approche scientifique et rigoureuse</strong><br />
-            Ma formation et mon expérience en Data Engineering m'ont inculqué une rigueur scientifique et une méthodologie de travail essentielles dans un environnement de laboratoire. L'analyse de données complexes, la gestion de flux ETL critiques et la documentation technique précise font partie intégrante de mon quotidien professionnel. Cette approche systématique garantit la fiabilité et la maintenance des développements LIMS.
+            <strong>Leadership technique et vision stratégique</strong><br />
+            Mes compétences en encadrement technique, développées à travers la formation de collègues et la coordination de projets multi-équipes, me préparent naturellement à gérer une équipe d'environ 20 collaborateurs. Mon expérience en définition de roadmaps techniques et en analyse de faisabilité me permettra de traduire efficacement les besoins business en solutions informatiques robustes. Ma capacité à communiquer avec différents stakeholders et à aligner les objectifs techniques avec les enjeux métier sera précieuse pour représenter le département auprès des comités internes et externes.
           </p>
 
           <p>
-            <strong>Une vision architecturale moderne</strong><br />
-            Mon expérience avec Azure DevOps et les environnements cloud me permet d'apporter une perspective moderne à l'évolution du LIMS. Ma connaissance des patterns d'architecture logicielle et des bonnes pratiques de développement contribuera à la scalabilité et à la maintenabilité des nouvelles fonctionnalités. Mon expérience en optimisation de performances sur de gros volumes de données s'avère précieuse pour les systèmes LIMS traitant de nombreux échantillons.
+            <strong>Maîtrise des méthodologies Agile et du service management</strong><br />
+            Mon expérience avec les processus de développement Agile et ma connaissance des outils comme Azure DevOps me permettront d'optimiser les processus de delivery et de maintenir les engagements de service vis-à-vis des clients internes et externes. Ma rigueur en matière de documentation technique et de gestion des connaissances garantira une transmission efficace de l'expertise billettique aux équipes et une continuité de service optimale.
           </p>
 
           <p>
-            <strong>Un potentiel de leadership technique</strong><br />
-            Mes compétences en encadrement technique, développées à travers la formation de collègues et la documentation de solutions complexes, me préparent naturellement au rôle de référent technique évoqué dans votre offre. Mon goût pour la veille technologique et l'innovation me motivent à proposer des solutions novatrices pour faire évoluer le LIMS vers les meilleures pratiques du secteur.
+            <strong>Passion pour la mobilité urbaine et l'innovation</strong><br />
+            Contribuer à faire bouger Bruxelles en tant qu'acteur clé de la transformation digitale du transport public me motive profondément. L'opportunité de participer à la modernisation des systèmes de billettique et d'accompagner l'évolution technologique d'une entreprise aussi emblématique que la STIB représente un défi professionnel exceptionnel. Je suis enthousiaste à l'idée de mettre mon expertise au service de l'amélioration de l'expérience client et de la performance opérationnelle.
           </p>
 
           <p>
-            <strong>Une motivation pour la recherche au service de la santé</strong><br />
-            Contribuer à un institut scientifique dédié à la santé humaine et animale représente pour moi une opportunité exceptionnelle d'allier expertise technique et impact sociétal. L'idée de participer à l'amélioration des processus laboratoire et de contribuer indirectement aux avancées scientifiques en santé me motive profondément. Je suis enthousiaste à l'idée de mettre mes compétences au service de cette mission d'intérêt général.
+            <strong>Vision collaborative et orientée résultats</strong><br />
+            Ma capacité d'écoute active, mon esprit d'analyse et ma facilité à mobiliser les équipes autour d'objectifs communs me permettront de créer une dynamique positive au sein du département. Mon orientation client naturelle et ma capacité à prendre des décisions éclairées contribueront à l'excellence opérationnelle des solutions de vente STIB et à la satisfaction des utilisateurs finaux.
           </p>
 
           <p>
-            Convaincu que mon profil technique, associé à ma rigueur scientifique et ma motivation pour la recherche en santé, peut apporter une valeur ajoutée significative à vos équipes LIMS, je serais ravi de vous exposer plus en détail ma vision du poste lors d'un entretien.
+            Convaincu que mon profil technique et managérial, associé à ma passion pour l'innovation et la mobilité urbaine, peut apporter une valeur ajoutée significative à vos équipes Sales Solutions, je serais ravi d'échanger plus en détail sur ma vision du poste et mes propositions d'amélioration lors d'un entretien.
           </p>
 
           <p>
@@ -64,16 +64,16 @@ export const MotivationLetter = () => {
 
         <div className="flex flex-wrap gap-2 pt-4 border-t border-border/50">
           <Badge variant="secondary" className="bg-primary/10 text-primary border-primary/20">
-            Développement LIMS
+            IT Management
           </Badge>
           <Badge variant="secondary" className="bg-primary/10 text-primary border-primary/20">
-            Full Stack Expert
+            Architecture Solutions
           </Badge>
           <Badge variant="secondary" className="bg-primary/10 text-primary border-primary/20">
-            Rigueur Scientifique
+            Leadership d'Équipe
           </Badge>
           <Badge variant="secondary" className="bg-primary/10 text-primary border-primary/20">
-            Leadership Technique
+            Stratégie Digitale
           </Badge>
         </div>
       </div>
