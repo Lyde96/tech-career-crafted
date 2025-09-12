@@ -13,17 +13,17 @@ const Index = () => {
         {/* Header with profile */}
         <CVHeader />
         
-        {/* Main content in two columns */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        {/* Main content in responsive columns */}
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
           {/* Left column - Achievements, Experience and Projects */}
-          <div className="lg:col-span-2 space-y-12">
+          <div className="md:col-span-1 xl:col-span-2 space-y-12">
             <AchievementsSection />
             <ExperienceSection />
             <ProjectsSection />
           </div>
           
           {/* Right column - Skills and Education */}
-          <div className="space-y-12">
+          <div className="md:col-span-1 xl:col-span-1 space-y-12">
             <SkillsSection />
             <EducationSection />
           </div>
