@@ -4,7 +4,6 @@ import { SkillsSection } from "@/components/SkillsSection";
 import { ProjectsSection } from "@/components/ProjectsSection";
 import { EducationSection } from "@/components/EducationSection";
 import { AchievementsSection } from "@/components/AchievementsSection";
-import { MotivationLetter } from "@/components/MotivationLetter";
 
 const Index = () => {
   return (
@@ -13,9 +12,6 @@ const Index = () => {
         
         {/* Header with profile */}
         <CVHeader />
-        
-        {/* Motivation Letter */}
-        <MotivationLetter />
         
         {/* Main content in responsive columns */}
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">

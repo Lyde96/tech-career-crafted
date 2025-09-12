@@ -1,6 +1,8 @@
-import { Mail, Phone, MapPin, Github, Linkedin, Globe } from "lucide-react";
+import { Mail, Phone, MapPin, Github, Linkedin, Globe, FileText } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 // Using uploaded profile photo
 
 export const CVHeader = () => {
@@ -80,6 +82,12 @@ export const CVHeader = () => {
             <Globe className="w-4 h-4" />
             <span>portfolio-lyd</span>
           </div>
+          <Link to="/lettre-motivation">
+            <Button variant="outline" size="sm" className="w-full mt-4">
+              <FileText className="w-4 h-4 mr-2" />
+              Lettre de motivation
+            </Button>
+          </Link>
         </div>
       </div>
     </Card>
