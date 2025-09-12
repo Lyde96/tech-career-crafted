@@ -17,7 +17,7 @@ export const CVHeader = () => {
         
         <div className="flex-1 space-y-4">
           <div className="space-y-2">
-            <h1 className="text-4xl font-bold bg-tech-gradient bg-clip-text text-transparent print:bg-none print:text-foreground">
+            <h1 className="text-4xl font-bold bg-tech-gradient bg-clip-text text-transparent">
               Lydéric Yabada
             </h1>
             <h2 className="text-xl text-muted-foreground font-medium">
