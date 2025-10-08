@@ -1,6 +1,7 @@
 import { CVSidebar } from "@/components/CVSidebar";
 import { ExperienceSection } from "@/components/ExperienceSection";
 import { EducationSection } from "@/components/EducationSection";
+import europassLogo from "@/assets/europass-logo.png";
 
 const Index = () => {
   return (
@@ -13,6 +14,10 @@ const Index = () => {
       {/* Right content - White background with experiences */}
       <main className="flex-1 bg-white text-foreground">
         <div className="max-w-4xl mx-auto px-8 py-8 space-y-8">
+          {/* Europass Logo */}
+          <div className="flex justify-end">
+            <img src={europassLogo} alt="Europass" className="h-12" />
+          </div>
           {/* Professional Summary */}
           <section>
             <h2 className="text-2xl font-bold text-gray-900 border-b-2 border-primary pb-2 mb-4">
