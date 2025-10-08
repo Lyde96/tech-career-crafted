@@ -58,52 +58,49 @@ const experiences: Experience[] = [
 export const ExperienceSection = () => {
   return (
     <section className="space-y-4">
-      <h2 className="text-2xl font-bold text-foreground border-b-2 border-primary pb-2">
+      <h2 className="text-2xl font-bold text-gray-900 border-b-2 border-primary pb-2">
         EXPÉRIENCE PROFESSIONNELLE
       </h2>
 
       <div className="space-y-5">
         {experiences.map((exp, index) => (
-          <Card key={index} className="p-5 border-l-4 border-primary/40 hover:border-primary transition-colors">
-            <div className="space-y-3">
-              {/* Header */}
-              <div className="space-y-1">
-                <h3 className="text-lg font-bold text-foreground">{exp.title}</h3>
-                <p className="text-base font-semibold text-primary">{exp.company}</p>
-                <div className="flex flex-wrap gap-x-4 gap-y-1 text-sm text-muted-foreground">
+          <div key={index} className="border-l-4 border-primary/40 pl-4 space-y-2">
+            {/* Header */}
+            <div className="space-y-1">
+              <h3 className="text-lg font-bold text-gray-900">{exp.title}</h3>
+              <p className="text-base font-semibold text-primary">{exp.company}</p>
+              <div className="flex flex-wrap gap-x-4 gap-y-1 text-sm text-gray-600">
+                <span className="flex items-center gap-1.5">
+                  <Calendar className="w-3.5 h-3.5" />
+                  {exp.period}
+                </span>
+                {exp.location && (
                   <span className="flex items-center gap-1.5">
-                    <Calendar className="w-3.5 h-3.5" />
-                    {exp.period}
+                    <MapPin className="w-3.5 h-3.5" />
+                    {exp.location}
                   </span>
-                  {exp.location && (
-                    <span className="flex items-center gap-1.5">
-                      <MapPin className="w-3.5 h-3.5" />
-                      {exp.location}
-                    </span>
-                  )}
-                </div>
-              </div>
-
-              {/* Responsibilities */}
-              <div>
-                <p className="text-xs font-bold text-foreground mb-2 uppercase">Responsabilités & Réalisations :</p>
-                <ul className="space-y-1.5">
-                  {exp.responsibilities.map((item, idx) => (
-                    <li key={idx} className="flex gap-2 text-sm text-muted-foreground leading-relaxed">
-                      <span className="text-primary mt-0.5">•</span>
-                      <span>{item}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-
-              {/* Technologies */}
-              <div className="pt-2">
-                <p className="text-xs font-bold text-foreground mb-1">Technologies :</p>
-                <p className="text-sm text-muted-foreground leading-relaxed">{exp.technologies}</p>
+                )}
               </div>
             </div>
-          </Card>
+
+            {/* Responsibilities */}
+            <div>
+              <ul className="space-y-1.5">
+                {exp.responsibilities.map((item, idx) => (
+                  <li key={idx} className="flex gap-2 text-sm text-gray-700 leading-relaxed">
+                    <span className="text-primary mt-0.5">•</span>
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Technologies */}
+            <div className="pt-1">
+              <p className="text-xs font-semibold text-gray-600 mb-1">Technologies :</p>
+              <p className="text-sm text-gray-600 leading-relaxed">{exp.technologies}</p>
+            </div>
+          </div>
         ))}
       </div>
     </section>
