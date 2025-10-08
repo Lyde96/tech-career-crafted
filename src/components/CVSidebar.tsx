@@ -18,7 +18,7 @@ export const CVSidebar = () => {
           Lydéric Yabada
         </h1>
         <p className="text-base text-cv-sidebar-foreground/80 mt-2">
-          Data Engineer & Web Developer
+          Data Analyst - AI Expert
         </p>
       </div>
 
@@ -84,23 +84,100 @@ export const CVSidebar = () => {
 
       {/* Languages */}
       <div className="space-y-3">
-        <h2 className="font-bold text-cv-sidebar-foreground uppercase text-xs">Langues</h2>
-        <div className="space-y-2 text-sm">
+        <h2 className="font-bold text-cv-sidebar-foreground uppercase text-xs mb-2">Languages</h2>
+        <div className="space-y-2 text-xs">
           <div>
-            <p className="font-medium">Français</p>
-            <p className="text-xs text-cv-sidebar-foreground/70">Langue maternelle</p>
+            <p className="font-semibold">MOTHER TONGUE(S):</p>
+            <p className="text-cv-sidebar-foreground/80">French</p>
           </div>
-          <div>
-            <p className="font-medium">Anglais</p>
-            <p className="text-xs text-cv-sidebar-foreground/70">Professionnel</p>
+          <div className="mt-3">
+            <table className="w-full text-xs">
+              <thead>
+                <tr className="border-b border-cv-sidebar-foreground/20">
+                  <th className="text-left py-1"></th>
+                  <th className="text-center py-1 font-semibold">Understanding</th>
+                  <th className="text-center py-1 font-semibold">Speaking</th>
+                  <th className="text-center py-1 font-semibold">Writing</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-cv-sidebar-foreground/10">
+                  <td className="py-1 font-medium">English</td>
+                  <td className="text-center py-1">C1</td>
+                  <td className="text-center py-1">C1</td>
+                  <td className="text-center py-1">C1</td>
+                </tr>
+                <tr>
+                  <td className="py-1 font-medium">Dutch</td>
+                  <td className="text-center py-1">A2</td>
+                  <td className="text-center py-1">A1</td>
+                  <td className="text-center py-1">A1</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
-          <div>
-            <p className="font-medium">Néerlandais</p>
-            <p className="text-xs text-cv-sidebar-foreground/70">Intermédiaire</p>
+        </div>
+      </div>
+
+      {/* Technical Skills */}
+      <div className="space-y-3">
+        <h2 className="font-bold text-cv-sidebar-foreground uppercase text-xs">Technical Skills</h2>
+        <div className="grid grid-cols-2 gap-x-3 gap-y-1 text-xs">
+          <div className="flex items-center gap-1">
+            <span className="text-primary">•</span>
+            <span>Windows 10</span>
           </div>
-          <div>
-            <p className="font-medium">Espagnol</p>
-            <p className="text-xs text-cv-sidebar-foreground/70">Notions</p>
+          <div className="flex items-center gap-1">
+            <span className="text-primary">•</span>
+            <span>MS Office 365</span>
+          </div>
+          <div className="flex items-center gap-1">
+            <span className="text-primary">•</span>
+            <span>MS Sharepoint</span>
+          </div>
+          <div className="flex items-center gap-1">
+            <span className="text-primary">•</span>
+            <span>Lancrypt</span>
+          </div>
+          <div className="flex items-center gap-1">
+            <span className="text-primary">•</span>
+            <span>iOS / iPad iOS</span>
+          </div>
+          <div className="flex items-center gap-1">
+            <span className="text-primary">•</span>
+            <span>MDM</span>
+          </div>
+          <div className="flex items-center gap-1">
+            <span className="text-primary">•</span>
+            <span>ServiceNow</span>
+          </div>
+          <div className="flex items-center gap-1">
+            <span className="text-primary">•</span>
+            <span>SMT</span>
+          </div>
+          <div className="flex items-center gap-1">
+            <span className="text-primary">•</span>
+            <span>Script</span>
+          </div>
+          <div className="flex items-center gap-1">
+            <span className="text-primary">•</span>
+            <span>Active Directory</span>
+          </div>
+          <div className="flex items-center gap-1">
+            <span className="text-primary">•</span>
+            <span>Jira</span>
+          </div>
+          <div className="flex items-center gap-1">
+            <span className="text-primary">•</span>
+            <span>Videoconferencing</span>
+          </div>
+          <div className="flex items-center gap-1">
+            <span className="text-primary">•</span>
+            <span>Landesk</span>
+          </div>
+          <div className="flex items-center gap-1">
+            <span className="text-primary">•</span>
+            <span>Windows 7</span>
           </div>
         </div>
       </div>

@@ -24,9 +24,12 @@ export const EducationSection = () => {
           
           <div className="space-y-2 pl-6">
             <div>
+              <p className="text-sm font-semibold text-gray-900">Management Computing - Programmer Analyst</p>
+              <p className="text-xs text-gray-600">EPFC</p>
+            </div>
+            <div>
               <p className="text-sm font-semibold text-gray-900">Web Developer Full Stack</p>
               <p className="text-xs text-gray-600">Molengeek, Bruxelles</p>
-              <p className="text-xs text-gray-600">2019 - 2020</p>
             </div>
           </div>
         </div>
