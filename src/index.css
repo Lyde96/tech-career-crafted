@@ -127,16 +127,37 @@ All colors MUST be HSL.
   }
 
   html, body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
+    width: 210mm;
+    height: 297mm;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: white !important;
+    overflow: visible !important;
+  }
+
+  /* Make the main flex container print properly */
+  .min-h-screen {
+    min-height: auto !important;
+    display: flex !important;
+    flex-direction: row !important;
+  }
+
+  /* Force the sidebar to maintain its width and colors */
+  aside {
+    width: 80mm !important;
+    flex-shrink: 0 !important;
+    page-break-inside: avoid !important;
+  }
+
+  main {
+    flex: 1 !important;
     background: white !important;
   }
 
   /* Force the sidebar background to print */
   .bg-cv-sidebar {
     background-color: hsl(200 80% 85%) !important;
+    -webkit-print-color-adjust: exact !important;
   }
 
   /* Force text colors to print */
@@ -184,20 +205,13 @@ All colors MUST be HSL.
     border-color: rgb(209, 213, 219) !important;
   }
 
-  /* Page breaks */
-  .page-break-before {
-    page-break-before: always;
+  /* Ensure all images print */
+  img {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
   }
 
-  .page-break-after {
-    page-break-after: always;
-  }
-
-  .page-break-inside-avoid {
-    page-break-inside: avoid;
-  }
-
-  /* Fit to page */
+  /* Page setup */
   @page {
     size: A4;
     margin: 0;
@@ -206,5 +220,10 @@ All colors MUST be HSL.
   /* Hide elements that shouldn't print */
   button, .no-print {
     display: none !important;
+  }
+
+  /* Prevent page breaks inside important elements */
+  .border-l-4 {
+    page-break-inside: avoid !important;
   }
 }
