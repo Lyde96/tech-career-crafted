@@ -12,6 +12,18 @@ interface Experience {
 
 const experiences: Experience[] = [
   {
+    title: "Participant Hackathon Orange",
+    company: "Orange",
+    location: "Paris, France",
+    period: "14-15 Mars 2025",
+    responsibilities: [
+      "Développement de 5 solutions technologiques avancées en 48h axées sur l'innovation IA",
+      "Création d'un chatbot intelligent pour optimiser la compréhension des offres clients hey!",
+      "Développement d'un outil d'automatisation IA générative pour la création de contenu marketing visuel",
+    ],
+    technologies: "IA générative; NLP; Chatbot; Python; API; Innovation; Marketing Automation",
+  },
+  {
     title: "Data Engineer",
     company: "Décathlon (via Talan)",
     location: "Bruxelles, Belgique",
