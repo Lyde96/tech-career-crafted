@@ -52,18 +52,18 @@ const experiences: Experience[] = [
     technologies: "CRM; Marketing Automation; Google Analytics; Sales Funnel; A/B Testing; SEO/SEM; Python; Excel",
   },
   {
-    title: "Web Developer",
-    company: "Projets Freelance & Personnels",
-    location: "Bruxelles, Belgique",
-    period: "Juin 2020 - Août 2021",
+    title: "Assistant Administratif",
+    company: "CPAS",
+    location: "Ottignies, Belgique",
+    period: "Septembre 2020 - Septembre 2021",
     responsibilities: [
-      "Développé 10+ sites web responsives pour PME et associations, avec 95% de satisfaction client",
-      "Créé une plateforme e-commerce générant 50K€+ de transactions en 6 mois",
-      "Optimisé le SEO de 5 sites clients, augmentant le trafic organique de 120% en moyenne",
-      "Intégré des systèmes de paiement sécurisés (Stripe) avec 0 incidents de sécurité",
-      "Réduit le temps de chargement moyen des sites de 60% via optimisations techniques",
+      "Liaison entre les bénéficiaires et les travailleurs sociaux",
+      "Support à la ligne téléphonique d'aide",
+      "Distribution de certificats aux travailleurs sociaux et bénéficiaires",
+      "Suivi des dossiers des bénéficiaires et des paiements",
+      "Assistance aux tâches de communication (contenu web, création de flyers)",
     ],
-    technologies: "React; TypeScript; Node.js; HTML/CSS; JavaScript; Laravel; Bootstrap; MySQL; Git; Stripe",
+    technologies: "MS Office 365; Communication; Gestion administrative; Support client",
   },
 ];
 
