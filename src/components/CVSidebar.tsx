@@ -1,4 +1,5 @@
 import { Mail, Phone, MapPin, Github, Linkedin } from "lucide-react";
+import europassLogo from "@/assets/europass-logo.png";
 
 export const CVSidebar = () => {
   return (
@@ -143,6 +144,11 @@ export const CVSidebar = () => {
             <span>Windows 7</span>
           </div>
         </div>
+      </div>
+
+      {/* Europass Logo */}
+      <div className="flex justify-center mt-8">
+        <img src={europassLogo} alt="Europass" className="h-10 opacity-80" />
       </div>
     </div>
   );
