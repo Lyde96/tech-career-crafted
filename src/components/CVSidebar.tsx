@@ -82,43 +82,6 @@ export const CVSidebar = () => {
         </div>
       </div>
 
-      {/* Languages */}
-      <div className="space-y-3">
-        <h2 className="font-bold text-cv-sidebar-foreground uppercase text-xs mb-2">Languages</h2>
-        <div className="space-y-2 text-xs">
-          <div>
-            <p className="font-semibold">MOTHER TONGUE(S):</p>
-            <p className="text-cv-sidebar-foreground/80">French</p>
-          </div>
-          <div className="mt-3">
-            <table className="w-full text-xs">
-              <thead>
-                <tr className="border-b border-cv-sidebar-foreground/20">
-                  <th className="text-left py-1"></th>
-                  <th className="text-center py-1 font-semibold">Understanding</th>
-                  <th className="text-center py-1 font-semibold">Speaking</th>
-                  <th className="text-center py-1 font-semibold">Writing</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr className="border-b border-cv-sidebar-foreground/10">
-                  <td className="py-1 font-medium">English</td>
-                  <td className="text-center py-1">C1</td>
-                  <td className="text-center py-1">C1</td>
-                  <td className="text-center py-1">C1</td>
-                </tr>
-                <tr>
-                  <td className="py-1 font-medium">Dutch</td>
-                  <td className="text-center py-1">A2</td>
-                  <td className="text-center py-1">A1</td>
-                  <td className="text-center py-1">A1</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-
       {/* Technical Skills */}
       <div className="space-y-3">
         <h2 className="font-bold text-cv-sidebar-foreground uppercase text-xs">Technical Skills</h2>

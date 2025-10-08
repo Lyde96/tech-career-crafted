@@ -51,6 +51,43 @@ export const EducationSection = () => {
           </ul>
         </div>
       </div>
+
+      {/* Languages */}
+      <div className="space-y-3 mt-6">
+        <h3 className="font-bold text-sm text-gray-900">LANGUAGES</h3>
+        <div className="space-y-2 text-xs pl-6">
+          <div>
+            <p className="font-semibold text-gray-900">MOTHER TONGUE(S):</p>
+            <p className="text-gray-700">French</p>
+          </div>
+          <div className="mt-3">
+            <table className="w-full text-xs">
+              <thead>
+                <tr className="border-b border-gray-300">
+                  <th className="text-left py-1"></th>
+                  <th className="text-center py-1 font-semibold text-gray-900">Understanding</th>
+                  <th className="text-center py-1 font-semibold text-gray-900">Speaking</th>
+                  <th className="text-center py-1 font-semibold text-gray-900">Writing</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-gray-200">
+                  <td className="py-1 font-medium text-gray-900">English</td>
+                  <td className="text-center py-1 text-gray-700">C1</td>
+                  <td className="text-center py-1 text-gray-700">C1</td>
+                  <td className="text-center py-1 text-gray-700">C1</td>
+                </tr>
+                <tr>
+                  <td className="py-1 font-medium text-gray-900">Dutch</td>
+                  <td className="text-center py-1 text-gray-700">A2</td>
+                  <td className="text-center py-1 text-gray-700">A1</td>
+                  <td className="text-center py-1 text-gray-700">A1</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
     </section>
   );
 };
