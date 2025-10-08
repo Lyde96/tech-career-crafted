@@ -21,13 +21,13 @@ const Index = () => {
           {/* Professional Summary */}
           <section>
             <h2 className="text-2xl font-bold text-gray-900 border-b-2 border-primary pb-2 mb-4">
-              PROFIL PROFESSIONNEL
+              PROFESSIONAL PROFILE
             </h2>
             <p className="text-sm text-gray-700 leading-relaxed">
-              Data Engineer et développeur web passionné par la transformation des données en solutions business concrètes. 
-              Expert en conception de pipelines ETL, analyse de données et développement d'applications web performantes. 
-              Spécialisé dans les écosystèmes Azure/Databricks et le développement full stack (React, TypeScript, Python). 
-              Orienté résultats avec un track record prouvé d'amélioration des processus métier et de croissance business.
+              Data Analyst and web developer passionate about transforming data into concrete business solutions. 
+              Expert in designing ETL pipelines, data analysis, and developing high-performance web applications. 
+              Specialized in Azure/Databricks ecosystems and full stack development (React, TypeScript, Python). 
+              Results-oriented with a proven track record of business process improvement and business growth.
             </p>
           </section>
 
@@ -44,7 +44,7 @@ const Index = () => {
 
           {/* Footer */}
           <footer className="text-center text-gray-500 text-xs border-t border-gray-200 pt-6 mt-8">
-            <p>CV • Lydéric Yabada • {new Date().toLocaleDateString('fr-FR')}</p>
+            <p>CV • Lydéric Yabada • {new Date().toLocaleDateString('en-US')}</p>
           </footer>
         </div>
       </main>

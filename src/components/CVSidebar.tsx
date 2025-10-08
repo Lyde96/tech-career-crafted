@@ -65,20 +65,20 @@ export const CVSidebar = () => {
 
       {/* Skills */}
       <div className="space-y-4">
-        <h2 className="font-bold text-cv-sidebar-foreground uppercase text-xs">Compétences</h2>
+        <h2 className="font-bold text-cv-sidebar-foreground uppercase text-xs">Skills</h2>
         
         <div>
-          <h3 className="font-semibold text-sm mb-2">Data Engineering</h3>
+          <h3 className="font-semibold text-sm mb-2">Data Analytics</h3>
           <p className="text-xs leading-relaxed">Python, SQL, Azure Databricks, Apache Spark, Power BI, ETL</p>
         </div>
         
         <div>
-          <h3 className="font-semibold text-sm mb-2">Développement Web</h3>
+          <h3 className="font-semibold text-sm mb-2">Web Development</h3>
           <p className="text-xs leading-relaxed">React, TypeScript, Node.js, HTML/CSS, JavaScript</p>
         </div>
         
         <div>
-          <h3 className="font-semibold text-sm mb-2">Outils</h3>
+          <h3 className="font-semibold text-sm mb-2">Tools</h3>
           <p className="text-xs leading-relaxed">Git/GitHub, Docker, CI/CD, Agile/Scrum</p>
         </div>
       </div>

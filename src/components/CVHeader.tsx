@@ -22,7 +22,7 @@ export const CVHeader = () => {
               Lydéric Yabada
             </h1>
             <p className="text-lg text-muted-foreground mt-1">
-              Data Engineer & Web Developer
+              Data Analyst & Web Developer
             </p>
           </div>
 
@@ -64,12 +64,12 @@ export const CVHeader = () => {
 
       {/* Summary */}
       <div className="mt-4 pt-4 border-t border-border">
-        <h2 className="text-sm font-bold text-foreground mb-2">RÉSUMÉ PROFESSIONNEL</h2>
+        <h2 className="text-sm font-bold text-foreground mb-2">PROFESSIONAL SUMMARY</h2>
         <p className="text-sm text-muted-foreground leading-relaxed">
-          Data Engineer et développeur web passionné par la transformation des données en solutions business concrètes. 
-          Expert en conception de pipelines ETL, analyse de données et développement d'applications web performantes. 
-          Spécialisé dans les écosystèmes Azure/Databricks et le développement full stack (React, TypeScript, Python). 
-          Orienté résultats avec un track record prouvé d'amélioration des processus métier et de croissance business.
+          Data Analyst and web developer passionate about transforming data into concrete business solutions. 
+          Expert in designing ETL pipelines, data analysis, and developing high-performance web applications. 
+          Specialized in Azure/Databricks ecosystems and full stack development (React, TypeScript, Python). 
+          Results-oriented with a proven track record of business process improvement and business growth.
         </p>
       </div>
     </Card>

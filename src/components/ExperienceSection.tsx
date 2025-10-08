@@ -12,58 +12,58 @@ interface Experience {
 
 const experiences: Experience[] = [
   {
-    title: "Participant Hackathon Orange",
+    title: "Orange Hackathon Participant",
     company: "Orange",
     location: "Paris, France",
-    period: "14-15 Mars 2025",
+    period: "March 14-15, 2025",
     responsibilities: [
-      "Développement de 5 solutions technologiques avancées en 48h axées sur l'innovation IA",
-      "Création d'un chatbot intelligent pour optimiser la compréhension des offres clients hey!",
-      "Développement d'un outil d'automatisation IA générative pour la création de contenu marketing visuel",
+      "Developed 5 advanced technology solutions in 48h focused on AI innovation",
+      "Created an intelligent chatbot to optimize understanding of hey! customer offerings",
+      "Developed a generative AI automation tool for visual marketing content creation",
     ],
-    technologies: "IA générative; NLP; Chatbot; Python; API; Innovation; Marketing Automation",
+    technologies: "Generative AI; NLP; Chatbot; Python; API; Innovation; Marketing Automation",
   },
   {
     title: "Data Analyst",
     company: "Décathlon (via Talan)",
-    location: "Bruxelles, Belgique",
-    period: "Mars 2024 - Juillet 2025",
+    location: "Brussels, Belgium",
+    period: "March 2024 - July 2025",
     responsibilities: [
-      "Analysé 50,000+ transactions/jour via Azure Cloud et Power BI, réduisant les ruptures de stock de 25%",
-      "Créé des dashboards Power BI et Excel avancés pour 200+ magasins, accélérant la prise de décision de 60%",
-      "Optimisé les requêtes SQL sur Azure et SAP, améliorant les performances des rapports de 40%",
-      "Développé des modèles prédictifs IA pour l'optimisation des stocks, économisant 15h/semaine d'efforts manuels",
-      "Automatisé l'extraction de données SAP et Azure Cloud, augmentant l'efficacité des analyses de 35%",
+      "Analyzed 50,000+ transactions/day via Azure Cloud and Power BI, reducing stock-outs by 25%",
+      "Created advanced Power BI and Excel dashboards for 200+ stores, accelerating decision-making by 60%",
+      "Optimized SQL queries on Azure and SAP, improving report performance by 40%",
+      "Developed AI predictive models for inventory optimization, saving 15h/week of manual effort",
+      "Automated SAP and Azure Cloud data extraction, increasing analysis efficiency by 35%",
     ],
-    technologies: "Azure Cloud; SAP; Power BI; SQL; Excel Avancé; Python; IA/Machine Learning; Azure Databricks; Data Modeling",
+    technologies: "Azure Cloud; SAP; Power BI; SQL; Advanced Excel; Python; AI/Machine Learning; Azure Databricks; Data Modeling",
   },
   {
     title: "Growth Specialist",
     company: "Neoline Corporation",
-    location: "Bruxelles, Belgique",
-    period: "Septembre 2021 - Février 2024",
+    location: "Brussels, Belgium",
+    period: "September 2021 - February 2024",
     responsibilities: [
-      "Développé un système d'automation marketing générant 150% de croissance moyenne pour 20+ clients PME",
-      "Créé et optimisé des funnels de vente atteignant 12% de taux de conversion (vs 3% standard marché)",
-      "Implémenté des outils CRM personnalisés, réduisant le temps de prospection de 70%",
-      "Formé 30+ entrepreneurs aux stratégies digitales de croissance, avec 85% de satisfaction client",
-      "Analysé les données de performance pour identifier des opportunités de croissance (+40% ROI moyen)",
+      "Developed a marketing automation system generating 150% average growth for 20+ SME clients",
+      "Created and optimized sales funnels achieving 12% conversion rate (vs 3% market standard)",
+      "Implemented customized CRM tools, reducing prospecting time by 70%",
+      "Trained 30+ entrepreneurs in digital growth strategies, with 85% client satisfaction",
+      "Analyzed performance data to identify growth opportunities (+40% average ROI)",
     ],
     technologies: "CRM; Marketing Automation; Google Analytics; Sales Funnel; A/B Testing; SEO/SEM; Python; Excel",
   },
   {
-    title: "Assistant Administratif",
+    title: "Administrative Assistant",
     company: "CPAS",
-    location: "Ottignies, Belgique",
-    period: "Septembre 2020 - Septembre 2021",
+    location: "Ottignies, Belgium",
+    period: "September 2020 - September 2021",
     responsibilities: [
-      "Liaison entre les bénéficiaires et les travailleurs sociaux",
-      "Support à la ligne téléphonique d'aide",
-      "Distribution de certificats aux travailleurs sociaux et bénéficiaires",
-      "Suivi des dossiers des bénéficiaires et des paiements",
-      "Assistance aux tâches de communication (contenu web, création de flyers)",
+      "Liaison between beneficiaries and social workers",
+      "Support for helpline assistance",
+      "Distribution of certificates to social workers and beneficiaries",
+      "Follow-up of beneficiary files and payments",
+      "Assistance with communication tasks (web content, flyer creation)",
     ],
-    technologies: "MS Office 365; Communication; Gestion administrative; Support client",
+    technologies: "MS Office 365; Communication; Administrative Management; Customer Support",
   },
 ];
 
@@ -71,7 +71,7 @@ export const ExperienceSection = () => {
   return (
     <section className="space-y-4">
       <h2 className="text-2xl font-bold text-gray-900 border-b-2 border-primary pb-2">
-        EXPÉRIENCE PROFESSIONNELLE
+        PROFESSIONAL EXPERIENCE
       </h2>
 
       <div className="space-y-5">
@@ -109,7 +109,7 @@ export const ExperienceSection = () => {
 
             {/* Technologies */}
             <div className="pt-1">
-              <p className="text-xs font-semibold text-gray-600 mb-1">Technologies :</p>
+              <p className="text-xs font-semibold text-gray-600 mb-1">Technologies:</p>
               <p className="text-sm text-gray-600 leading-relaxed">{exp.technologies}</p>
             </div>
           </div>

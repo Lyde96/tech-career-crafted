@@ -27,7 +27,7 @@ export const SkillsSection = () => {
   return (
     <section className="space-y-4">
       <h2 className="text-2xl font-bold text-foreground border-b-2 border-primary pb-2">
-        COMPÉTENCES TECHNIQUES
+        TECHNICAL SKILLS
       </h2>
 
       <Card className="p-5">
@@ -41,7 +41,7 @@ export const SkillsSection = () => {
           </div>
 
           <div>
-            <h3 className="text-sm font-bold text-foreground mb-2 uppercase">Développement Web</h3>
+            <h3 className="text-sm font-bold text-foreground mb-2 uppercase">Web Development</h3>
             <p className="text-sm text-muted-foreground leading-relaxed">
               React • TypeScript • Node.js • JavaScript ES6+ • HTML5/CSS3 • Next.js • Vue.js • 
               Tailwind CSS • REST API • GraphQL • Laravel • Bootstrap
@@ -49,10 +49,10 @@ export const SkillsSection = () => {
           </div>
 
           <div>
-            <h3 className="text-sm font-bold text-foreground mb-2 uppercase">Outils & Méthodologies</h3>
+            <h3 className="text-sm font-bold text-foreground mb-2 uppercase">Tools & Methodologies</h3>
             <p className="text-sm text-muted-foreground leading-relaxed">
               Git/GitHub • Docker • CI/CD • Agile/Scrum • Azure DevOps • AWS • Kubernetes • 
-              Testing (Jest, Cypress) • Excel Avancé • Google Analytics
+              Testing (Jest, Cypress) • Advanced Excel • Google Analytics
             </p>
           </div>
 

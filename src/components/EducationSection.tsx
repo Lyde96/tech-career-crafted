@@ -11,7 +11,7 @@ export const EducationSection = () => {
   return (
     <section className="space-y-4">
       <h2 className="text-2xl font-bold text-gray-900 border-b-2 border-primary pb-2">
-        FORMATION & CERTIFICATIONS
+        EDUCATION & CERTIFICATIONS
       </h2>
 
       <div className="space-y-4">
@@ -19,7 +19,7 @@ export const EducationSection = () => {
         <div className="space-y-3">
           <div className="flex items-center gap-2">
             <GraduationCap className="w-4 h-4 text-primary" />
-            <h3 className="font-bold text-sm text-gray-900">Formation</h3>
+            <h3 className="font-bold text-sm text-gray-900">Education</h3>
           </div>
           
           <div className="space-y-2 pl-6">
@@ -28,8 +28,8 @@ export const EducationSection = () => {
               <p className="text-xs text-gray-600">EPFC</p>
             </div>
             <div>
-              <p className="text-sm font-semibold text-gray-900">Web Developer Full Stack</p>
-              <p className="text-xs text-gray-600">Molengeek, Bruxelles</p>
+              <p className="text-sm font-semibold text-gray-900">Full Stack Web Developer</p>
+              <p className="text-xs text-gray-600">Molengeek, Brussels</p>
             </div>
           </div>
         </div>
