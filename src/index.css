@@ -120,30 +120,91 @@ All colors MUST be HSL.
 
 /* Print styles for PDF export */
 @media print {
-  :root {
-    /* Keep on-screen theme and gradients for PDF export */
-    /* No overrides here: preserve current variables */
-  }
-
   * {
     -webkit-print-color-adjust: exact !important;
     print-color-adjust: exact !important;
+    color-adjust: exact !important;
   }
 
   html, body {
-    background: hsl(var(--background)) !important;
-    color: hsl(var(--foreground)) !important;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: white !important;
   }
 
-  /* Remove heavy visual effects that don't print well */
-  .shadow, .shadow-sm, .shadow-md, .shadow-lg, .shadow-xl, .shadow-2xl,
-  .drop-shadow, .drop-shadow-sm, .drop-shadow-md, .drop-shadow-lg, .drop-shadow-xl, .drop-shadow-2xl {
-    box-shadow: none !important;
-    filter: none !important;
+  /* Force the sidebar background to print */
+  .bg-cv-sidebar {
+    background-color: hsl(200 80% 85%) !important;
   }
 
-  /* Ensure borders are visible */
-  .border, .ring, .ring-1 {
-    border-color: hsl(var(--border)) !important;
+  /* Force text colors to print */
+  .text-cv-sidebar-foreground {
+    color: hsl(215 25% 27%) !important;
+  }
+
+  .text-gray-900 {
+    color: rgb(17, 24, 39) !important;
+  }
+
+  .text-gray-700 {
+    color: rgb(55, 65, 81) !important;
+  }
+
+  .text-gray-600 {
+    color: rgb(75, 85, 99) !important;
+  }
+
+  .text-gray-500 {
+    color: rgb(107, 114, 128) !important;
+  }
+
+  /* Force primary color to print */
+  .text-primary, .border-primary {
+    color: hsl(217 91% 60%) !important;
+    border-color: hsl(217 91% 60%) !important;
+  }
+
+  /* Force background white to print */
+  .bg-white {
+    background-color: white !important;
+  }
+
+  /* Ensure borders print */
+  .border, .border-l-4, .border-b-2, .border-t {
+    border-style: solid !important;
+  }
+
+  .border-gray-200 {
+    border-color: rgb(229, 231, 235) !important;
+  }
+
+  .border-gray-300 {
+    border-color: rgb(209, 213, 219) !important;
+  }
+
+  /* Page breaks */
+  .page-break-before {
+    page-break-before: always;
+  }
+
+  .page-break-after {
+    page-break-after: always;
+  }
+
+  .page-break-inside-avoid {
+    page-break-inside: avoid;
+  }
+
+  /* Fit to page */
+  @page {
+    size: A4;
+    margin: 0;
+  }
+
+  /* Hide elements that shouldn't print */
+  button, .no-print {
+    display: none !important;
   }
 }
