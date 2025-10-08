@@ -2,6 +2,7 @@ import { MotivationLetter } from "@/components/MotivationLetter";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft, Download, Eye } from "lucide-react";
 import { Link } from "react-router-dom";
+import europassLogo from "@/assets/europass-logo.png";
 
 const MotivationPage = () => {
   const handlePrint = () => {
@@ -11,6 +12,11 @@ const MotivationPage = () => {
   return (
     <div className="min-h-screen bg-background">
       <div className="max-w-5xl mx-auto px-4 py-8">
+        {/* Europass Logo */}
+        <div className="flex justify-end mb-4">
+          <img src={europassLogo} alt="Europass" className="h-12" />
+        </div>
+
         {/* Navigation */}
         <div className="flex items-center justify-between mb-8">
           <Link to="/" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">

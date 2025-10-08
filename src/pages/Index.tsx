@@ -37,6 +37,11 @@ const Index = () => {
           {/* Education Section */}
           <EducationSection />
 
+          {/* Europass Logo - Bottom */}
+          <div className="flex justify-end mt-8">
+            <img src={europassLogo} alt="Europass" className="h-10" />
+          </div>
+
           {/* Footer */}
           <footer className="text-center text-gray-500 text-xs border-t border-gray-200 pt-6 mt-8">
             <p>CV • Lydéric Yabada • {new Date().toLocaleDateString('fr-FR')}</p>
