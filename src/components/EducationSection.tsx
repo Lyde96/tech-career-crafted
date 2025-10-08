@@ -1,149 +1,96 @@
 import { Card } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import { GraduationCap, Calendar, MapPin, Award } from "lucide-react";
-import educationPhoto from "@/assets/education-photo.jpg";
+import { Calendar, MapPin, Award } from "lucide-react";
 
 interface Education {
   degree: string;
   school: string;
   location: string;
   period: string;
-  description?: string;
-  specialization?: string;
-  grade?: string;
 }
 
 const education: Education[] = [
   {
-    degree: "Formation Web Developer Full Stack",
+    degree: "Web Developer Full Stack",
     school: "Molengeek",
     location: "Bruxelles, Belgique",
     period: "Septembre 2020 - Mai 2021",
-    specialization: "Développement Full Stack",
-    description: "Formation intensive de 7 mois couvrant le développement front-end et back-end. Création de sites web avec HTML5, CSS3, JavaScript, React.js, Laravel 8, et Bootstrap. Apprentissage des bases UX/UI, création de bases de données et débogage."
-  }
+  },
 ];
 
-interface OnlineCourse {
-  title: string;
-  platform: string;
-  year: string;
-  certificate?: boolean;
-}
+const certifications = [
+  { title: "Google Data Analytics Professional Certificate", year: "2023" },
+  { title: "Google Data Engineer Professional Certificate", year: "2023" },
+  { title: "AWS Cloud Practitioner Certification", year: "2023" },
+  { title: "Système d'automatisation avec l'IA", org: "OrrAcademy", year: "2025" },
+  { title: "Advanced React & Redux", org: "Udemy", year: "2023" },
+  { title: "Excel Avancé", org: "Microsoft", year: "2023" },
+];
 
-const onlineCourses: OnlineCourse[] = [
-  { title: "Système d'automatisation avec l'IA", platform: "OrrAcademy", year: "2025", certificate: true },
-  { title: "Advanced React & Redux", platform: "Udemy", year: "2023", certificate: true },
-  { title: "Excel Avancé", platform: "Microsoft", year: "2023", certificate: true },
-  { title: "AWS Solutions Architect", platform: "A Cloud Guru", year: "2022", certificate: true },
-  { title: "Kubernetes for Developers", platform: "Pluralsight", year: "2022", certificate: true },
-  { title: "Machine Learning with Python", platform: "Coursera", year: "2021", certificate: true }
+const languages = [
+  { name: "Français", level: "Langue maternelle" },
+  { name: "Anglais", level: "C1 - Courant" },
+  { name: "Néerlandais", level: "B2 - Intermédiaire" },
+  { name: "Espagnol", level: "B2 - Intermédiaire" },
 ];
 
 export const EducationSection = () => {
   return (
-    <Card className="p-6 bg-card-gradient border-border/50">
-      <h2 className="text-2xl font-bold flex items-center gap-2 mb-6">
-        <div className="w-2 h-8 bg-tech-gradient rounded-full" />
-        Formation & Éducation
-      </h2>
-      
-      <div className="space-y-8">
-        {/* Formation académique */}
-        <div className="space-y-4">
-          <h3 className="text-lg font-semibold flex items-center gap-2">
-            <GraduationCap className="w-5 h-5 text-primary" />
-            Formation Académique
-          </h3>
+    <Card className="p-5 space-y-6">
+      <div className="space-y-4">
+        <h2 className="text-2xl font-bold text-foreground border-b-2 border-primary pb-2">
+          FORMATION
+        </h2>
+
+        {/* Education */}
+        <div className="space-y-3">
           {education.map((edu, index) => (
-            <Card key={index} className="p-4 bg-muted/20 border-border/30">
-              <div className="space-y-3">
-                <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2">
-                  <div className="space-y-1">
-                    <h4 className="font-semibold text-primary">{edu.degree}</h4>
-                    <p className="font-medium text-foreground">{edu.school}</p>
-                    {edu.specialization && (
-                      <p className="text-sm text-muted-foreground">
-                        Spécialisation: {edu.specialization}
-                      </p>
-                    )}
-                  </div>
-                  <div className="flex flex-col md:items-end gap-1 text-sm text-muted-foreground">
-                    <div className="flex items-center gap-1">
-                      <Calendar className="w-4 h-4" />
-                      <span>{edu.period}</span>
-                    </div>
-                    <div className="flex items-center gap-1">
-                      <MapPin className="w-4 h-4" />
-                      <span>{edu.location}</span>
-                    </div>
-                  </div>
-                </div>
-                {edu.description && (
-                  <p className="text-foreground/80 text-sm leading-relaxed">
-                    {edu.description}
-                  </p>
-                )}
+            <div key={index} className="space-y-1">
+              <h3 className="text-base font-bold text-foreground">{edu.degree}</h3>
+              <p className="text-sm font-semibold text-primary">{edu.school}</p>
+              <div className="flex flex-wrap gap-x-3 gap-y-1 text-xs text-muted-foreground">
+                <span className="flex items-center gap-1">
+                  <Calendar className="w-3 h-3" />
+                  {edu.period}
+                </span>
+                <span className="flex items-center gap-1">
+                  <MapPin className="w-3 h-3" />
+                  {edu.location}
+                </span>
               </div>
-            </Card>
+            </div>
           ))}
         </div>
+      </div>
 
-        {/* Certifications et formations */}
-        <div className="space-y-4">
-          <h3 className="text-lg font-semibold flex items-center gap-2">
-            <Award className="w-5 h-5 text-primary" />
-            Certifications complémentaires
-          </h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-            {onlineCourses.map((course, index) => (
-              <div key={index} className="flex items-center justify-between p-3 bg-muted/20 rounded-lg border border-border/30">
-                <div>
-                  <p className="font-medium text-sm">{course.title}</p>
-                  <p className="text-xs text-muted-foreground">{course.platform} • {course.year}</p>
-                </div>
-                {course.certificate && (
-                  <Badge variant="outline" className="bg-green-500/10 text-green-400 border-green-500/20 text-xs">
-                    Certifié
-                  </Badge>
-                )}
-              </div>
-            ))}
-          </div>
+      {/* Certifications */}
+      <div className="space-y-3">
+        <h3 className="text-base font-bold text-foreground flex items-center gap-2">
+          <Award className="w-4 h-4 text-primary" />
+          CERTIFICATIONS
+        </h3>
+        <div className="space-y-2">
+          {certifications.map((cert, index) => (
+            <div key={index} className="flex justify-between items-start text-sm">
+              <span className="text-muted-foreground">
+                {cert.title}
+                {cert.org && <span className="text-xs"> • {cert.org}</span>}
+              </span>
+              <span className="text-xs text-muted-foreground shrink-0 ml-2">{cert.year}</span>
+            </div>
+          ))}
         </div>
+      </div>
 
-        {/* Langues */}
-        <div className="space-y-4">
-          <h3 className="text-lg font-semibold">Langues</h3>
-          <div className="flex flex-wrap gap-4">
-            <div className="flex items-center gap-2">
-              <span className="font-medium">Français</span>
-              <Badge className="bg-primary/10 text-primary border-primary/20">Natif</Badge>
+      {/* Languages */}
+      <div className="space-y-3">
+        <h3 className="text-base font-bold text-foreground">LANGUES</h3>
+        <div className="space-y-2">
+          {languages.map((lang, index) => (
+            <div key={index} className="flex justify-between items-center text-sm">
+              <span className="font-medium text-foreground">{lang.name}</span>
+              <span className="text-muted-foreground">{lang.level}</span>
             </div>
-            <div className="flex items-center gap-2">
-              <span className="font-medium">Anglais</span>
-              <Badge className="bg-primary/10 text-primary border-primary/20">C1 - Courant</Badge>
-            </div>
-            <div className="flex items-center gap-2">
-              <span className="font-medium">Néerlandais</span>
-              <Badge className="bg-primary/10 text-primary border-primary/20">B2 - Intermédiaire</Badge>
-            </div>
-            <div className="flex items-center gap-2">
-              <span className="font-medium">Espagnol</span>
-              <Badge className="bg-primary/10 text-primary border-primary/20">B2 - Intermédiaire</Badge>
-            </div>
-          </div>
-        </div>
-
-        {/* Photo de formation */}
-        <div className="space-y-4">
-          <div className="flex justify-center">
-            <img 
-              src={educationPhoto} 
-              alt="Photo professionnelle de Lydéric Yabada"
-              className="w-64 h-80 object-cover rounded-lg border border-border/30"
-            />
-          </div>
+          ))}
         </div>
       </div>
     </Card>
