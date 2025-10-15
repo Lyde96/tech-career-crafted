@@ -1,6 +1,8 @@
 import { GraduationCap, Award } from "lucide-react";
 
 const certifications = [
+  "AWS Certified Machine Learning - Specialty",
+  "Microsoft Azure AI Engineer Associate",
   "Google Data Analytics Professional Certificate",
   "Google Data Engineer Professional Certificate",
   "AWS Cloud Practitioner",
