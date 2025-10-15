@@ -16,44 +16,44 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "EcoTracker - App Écologique",
-    description: "Application web permettant de suivre et réduire son empreinte carbone. Interface moderne avec dashboard interactif et gamification.",
+    title: "AI-Powered Customer Sentiment Analyzer",
+    description: "NLP system for real-time customer feedback analysis using fine-tuned transformer models with 92% accuracy across 5 languages.",
     features: [
-      "Calcul automatique d'empreinte carbone",
-      "Dashboard avec graphiques interactifs",
-      "Système de défis et récompenses",
-      "API pour données environnementales"
+      "Fine-tuned BERT model (camemBERT) for French sentiment analysis",
+      "Real-time inference API with 150ms latency using ONNX optimization",
+      "MLOps pipeline with automated retraining on new data (weekly)",
+      "Dashboards with sentiment trends and topic clustering (LDA)"
     ],
-    technologies: ["React", "TypeScript", "Node.js", "PostgreSQL", "Chart.js", "AWS"],
-    github: "github.com/user/ecotracker",
-    demo: "ecotracker-demo.com",
+    technologies: ["Python", "PyTorch", "HuggingFace Transformers", "ONNX", "FastAPI", "Docker", "MLflow", "PostgreSQL", "Grafana"],
+    github: "github.com/user/sentiment-ai",
+    demo: "sentiment-analyzer-demo.com",
     status: "En production"
   },
   {
-    title: "TaskFlow - Gestion de Projets",
-    description: "Plateforme collaborative de gestion de projets avec intégration temps réel et notifications push.",
+    title: "LLM-Powered RAG Knowledge Assistant",
+    description: "Enterprise RAG system using Mistral-7B with custom vector database for internal documentation Q&A (10,000+ documents).",
     features: [
-      "Tableau Kanban drag & drop",
-      "Chat en temps réel",
-      "Notifications push",
-      "Rapports automatisés"
+      "Document ingestion pipeline with chunking and embedding (sentence-transformers)",
+      "Hybrid search combining vector similarity and BM25",
+      "LLM response generation with source citation and hallucination detection",
+      "Chat history management and context-aware follow-up questions"
     ],
-    technologies: ["Next.js", "Socket.io", "MongoDB", "Express", "PWA"],
-    github: "github.com/user/taskflow",
+    technologies: ["LangChain", "Mistral-7B", "ChromaDB", "Sentence-Transformers", "FastAPI", "React", "Docker", "Redis"],
+    github: "github.com/user/rag-assistant",
     status: "En développement"
   },
   {
-    title: "CryptoWatch - Portfolio Crypto",
-    description: "Dashboard pour suivre un portefeuille de cryptomonnaies avec alertes prix et analyses techniques.",
+    title: "Predictive Sales Forecasting with ML",
+    description: "Time series forecasting system using ensemble ML models (XGBoost, Prophet, LSTM) with AutoML hyperparameter tuning.",
     features: [
-      "Suivi en temps réel des prix",
-      "Alertes personnalisables",
-      "Analyses techniques avancées",
-      "Export PDF des rapports"
+      "Multi-model ensemble achieving 15% MAPE on 90-day forecast",
+      "Automated feature engineering with 50+ temporal and external features",
+      "MLOps pipeline with A/B testing and shadow deployment",
+      "Interactive dashboards with prediction intervals and explainability (SHAP)"
     ],
-    technologies: ["Vue.js", "Python", "FastAPI", "Redis", "WebSocket"],
-    github: "github.com/user/cryptowatch",
-    demo: "cryptowatch-demo.com",
+    technologies: ["Python", "XGBoost", "Prophet", "TensorFlow", "Optuna", "MLflow", "Airflow", "DBT", "PostgreSQL", "Plotly"],
+    github: "github.com/user/sales-forecasting",
+    demo: "forecast-demo.com",
     status: "Terminé"
   }
 ];
