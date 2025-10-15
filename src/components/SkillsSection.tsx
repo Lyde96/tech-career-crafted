@@ -33,34 +33,37 @@ export const SkillsSection = () => {
       <Card className="p-5">
         <div className="space-y-4">
           <div>
-            <h3 className="text-sm font-bold text-foreground mb-2 uppercase">Data Engineering & Analytics</h3>
+            <h3 className="text-sm font-bold text-foreground mb-2 uppercase">AI & Machine Learning (4+ years)</h3>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Python • SQL • Apache Spark • Azure Databricks • Power BI • Tableau • ETL/ELT Pipelines • 
-              Data Modeling • Data Warehousing • PostgreSQL • MongoDB • Elasticsearch
+              Prompt Engineering • Large Language Models (Gemma 3, GPT-4, Claude) • Generative AI APIs (OpenAI, Anthropic) • 
+              NLP • AI Model Training & Fine-tuning • RAG (Retrieval-Augmented Generation) • AI Testing & QA • 
+              Model Evaluation & Optimization • MLOps
             </p>
           </div>
 
           <div>
-            <h3 className="text-sm font-bold text-foreground mb-2 uppercase">Web Development</h3>
+            <h3 className="text-sm font-bold text-foreground mb-2 uppercase">MLOps & Infrastructure (4+ years)</h3>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              React • TypeScript • Node.js • JavaScript ES6+ • HTML5/CSS3 • Next.js • Vue.js • 
-              Tailwind CSS • REST API • GraphQL • Laravel • Bootstrap
+              Kubernetes • ArgoCD • Docker • CI/CD (Bamboo, Jenkins, Git) • Azure Cloud • Azure Databricks • 
+              Model Deployment & Monitoring • Containerization • Microservices • Private Cloud Environments • 
+              Model Versioning • A/B Testing for AI Models
             </p>
           </div>
 
           <div>
-            <h3 className="text-sm font-bold text-foreground mb-2 uppercase">Tools & Methodologies</h3>
+            <h3 className="text-sm font-bold text-foreground mb-2 uppercase">Data Engineering & Analytics (5+ years)</h3>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Git/GitHub • Docker • CI/CD • Agile/Scrum • Azure DevOps • AWS • Kubernetes • 
-              Testing (Jest, Cypress) • Advanced Excel • Google Analytics
+              Python • SQL (Oracle, SQL Server) • ETL/ELT (Kestra, Airflow, DBT) • Apache Spark • 
+              Data Modeling (Medallion Architecture, Star Schema, Kimball) • Data Warehousing • Data Lakes • 
+              PostgreSQL • MongoDB • Power BI • Superset • Advanced Excel
             </p>
           </div>
 
           <div>
-            <h3 className="text-sm font-bold text-foreground mb-2 uppercase">Business & Marketing</h3>
+            <h3 className="text-sm font-bold text-foreground mb-2 uppercase">Programming & Development</h3>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              CRM • Marketing Automation • Sales Funnel • A/B Testing • SEO/SEM • 
-              Growth Hacking • Data Analysis • KPI Tracking
+              Python (Pandas, NumPy, Scikit-learn, TensorFlow) • TypeScript • React • Node.js • 
+              REST API • Git/GitHub • Agile/Scrum • Azure DevOps • Testing & QA
             </p>
           </div>
         </div>

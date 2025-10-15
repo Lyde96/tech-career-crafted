@@ -22,7 +22,7 @@ export const CVHeader = () => {
               Lydéric Yabada
             </h1>
             <p className="text-lg text-muted-foreground mt-1">
-              Data Analyst & Web Developer
+              AI Engineer & Data Scientist
             </p>
           </div>
 
@@ -66,10 +66,10 @@ export const CVHeader = () => {
       <div className="mt-4 pt-4 border-t border-border">
         <h2 className="text-sm font-bold text-foreground mb-2">PROFESSIONAL SUMMARY</h2>
         <p className="text-sm text-muted-foreground leading-relaxed">
-          Data Analyst and web developer passionate about transforming data into concrete business solutions. 
-          Expert in designing ETL pipelines, data analysis, and developing high-performance web applications. 
-          Specialized in Azure/Databricks ecosystems and full stack development (React, TypeScript, Python). 
-          Results-oriented with a proven track record of business process improvement and business growth.
+          AI Engineer with 4+ years of experience in designing, deploying, and optimizing AI/ML solutions in production environments. 
+          Expert in prompt engineering, MLOps, and industrialization of AI systems using Kubernetes and CI/CD pipelines. 
+          Specialized in developing applications with LLMs (Gemma, GPT), generative AI APIs, and deploying scalable solutions on Azure Cloud. 
+          Proven track record in transforming complex business requirements into production-ready AI solutions with measurable business impact.
         </p>
       </div>
     </Card>
