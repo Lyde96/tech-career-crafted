@@ -1,6 +1,5 @@
 import { Card } from "@/components/ui/card";
 import { Calendar, MapPin } from "lucide-react";
-import europassLogo from "@/assets/europass-logo.png";
 
 interface Experience {
   title: string;
@@ -90,12 +89,7 @@ export const ExperienceSection = () => {
           <div key={index} className="border-l-4 border-primary/40 pl-4 space-y-2">
             {/* Header */}
             <div className="space-y-1">
-              <div className="flex items-center gap-3">
-                {index === 1 && (
-                  <img src={europassLogo} alt="Europass" className="h-6 opacity-70" />
-                )}
-                <h3 className="text-lg font-bold text-gray-900">{exp.title}</h3>
-              </div>
+              <h3 className="text-lg font-bold text-gray-900">{exp.title}</h3>
               <p className="text-base font-semibold text-primary">{exp.company}</p>
               <div className="flex flex-wrap gap-x-4 gap-y-1 text-sm text-gray-600">
                 <span className="flex items-center gap-1.5">
