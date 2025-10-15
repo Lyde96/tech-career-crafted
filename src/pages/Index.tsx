@@ -24,10 +24,7 @@ const Index = () => {
               PROFESSIONAL PROFILE
             </h2>
             <p className="text-sm text-gray-700 leading-relaxed">
-              Data Analyst and web developer passionate about transforming data into concrete business solutions. 
-              Expert in designing ETL pipelines, data analysis, and developing high-performance web applications. 
-              Specialized in Azure/Databricks ecosystems and full stack development (React, TypeScript, Python). 
-              Results-oriented with a proven track record of business process improvement and business growth.
+              AI & Web Developer with a background in education and a passion for human-centred technology. Trained intensively in full-stack development and AI tools, combining technical expertise with communication skills to build accessible, ethical and innovative digital solutions.
             </p>
           </section>
 
